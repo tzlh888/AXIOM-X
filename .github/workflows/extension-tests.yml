@@ -12,5 +12,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements-extension.txt
-      - run: pytest -q
+      - run: python -m pip install --no-deps .
+      - run: python -m pytest -q
       - run: python -m axiom_x.demo > /tmp/synthetic-demo.json
