@@ -1,0 +1,23 @@
+{
+  "schema": "axiom-x-v2-1-run-config-v1",
+  "status": "DRAFT_BLOCKED",
+  "api_url": "https://api.openai.com/v1/chat/completions",
+  "response_mode": "json_object",
+  "development_interface_validated": false,
+  "primary_model": null,
+  "secondary_model": null,
+  "service_tier": "default",
+  "max_retries": 1,
+  "max_completion_tokens": 512,
+  "max_cost_usd": 10.0,
+  "input_price_usd_per_million": 2.0,
+  "output_price_usd_per_million": 10.0,
+  "pricing_source": "https://developers.openai.com/api/docs/pricing",
+  "pricing_checked_on": "2026-10-23",
+  "primary_prompt_sha256": "b253715a75c8e23641445f9d88de79096bba2cc4f0c8d363ca1c6d8e34b4f108",
+  "secondary_prompt_sha256": "8c925c3ce14171439f6544ada98aa15a915bc35a02a3c448e110b66237d923b2",
+  "formal_heldout_authorized": false,
+  "pristine_v2_1_heldout": false,
+  "dataset_sha256": null,
+  "gold_sha256": null
+}

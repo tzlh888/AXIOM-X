@@ -1,0 +1,49 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Private research evidence and generated experiment output
+data/
+data/v2/
+data/v2_1/
+results/
+review/
+exams/
+reports/author_verification/
+private/
+scratch/
+tmp/
+
+# Recordings and large local media
+*.aac
+*.flac
+*.m4a
+*.mov
+*.mp3
+*.mp4
+*.wav

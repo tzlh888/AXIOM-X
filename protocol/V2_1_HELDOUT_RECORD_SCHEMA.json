@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "category": {"minLength": 1, "type": "string"},
+      "license_or_permission": {"minLength": 1, "type": "string"},
+      "problem_id": {"minLength": 1, "type": "string"},
+      "problem_text": {"minLength": 1, "type": "string"},
+      "selection_stratum": {"minLength": 1, "type": "string"},
+      "source_reference": {"minLength": 1, "type": "string"}
+    },
+    "required": [
+      "problem_id",
+      "problem_text",
+      "category",
+      "selection_stratum",
+      "source_reference",
+      "license_or_permission"
+    ],
+    "type": "object"
+  },
+  "maxItems": 40,
+  "minItems": 40,
+  "title": "AXIOM-X V2.1 independent public Held-out import",
+  "type": "array"
+}

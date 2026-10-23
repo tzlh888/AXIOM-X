@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axiom-x-audit"
+version = "0.2.0"
+description = "Bounded formal-specification audit extension for AXIOM-X"
+requires-python = ">=3.11"
+dependencies = ["z3-solver>=4.13,<5"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+axiom-x-demo = "axiom_x.demo:main"
+
+[tool.setuptools.packages.find]
+include = ["axiom_x*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
