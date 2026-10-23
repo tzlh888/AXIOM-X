@@ -1,24 +1,32 @@
 # Copyright and redistribution review
 
-Status: **project-lead confirmation required before publication**. This is a
-provenance and release-engineering review, not legal advice or a license grant.
+Status: **MIT configuration confirmed; final publication approval pending**.
+This is a provenance and release-engineering review, not legal advice.
+
+Confirmed license configuration:
+
+- License: MIT License
+- Copyright year: 2026
+- Copyright holder: TANG ZELUOHE
+
+The holder name alone was not treated as proof that every possible project file
+could be licensed. Each included class was reviewed against repository
+provenance, disclosures, attribution markers, and the no-vendoring boundary.
 
 ## Included original-content classes
 
-| Class | Files | Evidence reviewed | Release treatment |
+| Class | Files | Rights evidence and boundary | Treatment |
 |---|---|---|---|
-| Core implementation | `axiom_x/*.py` | Project history and disclosure identify project-authored, AI-assisted implementation; no third-party copyright header, copied-source attribution, vendored code, or non-standard dependency was found | Eligible for the proposed MIT grant after holder/authority confirmation |
-| Tests and synthetic fixtures | `tests/*.py` | Inline deterministic fixtures; no research Gold or external dataset row; project-authored with AI assistance | Eligible after holder/authority confirmation |
-| Documentation | Root Markdown files | Project-specific prose; AI assistance disclosed; private assessments and prior private-file manifests excluded | Eligible after holder/authority confirmation |
-| Prompts | `prompts/*.txt` | Project-specific instructions; no third-party prompt attribution or copied corpus text found | Eligible after holder/authority confirmation |
-| Protocols, schemas, and run config | `protocol/*` | Project-specific research design and machine-readable configuration; contains no Gold or raw results | Eligible after holder/authority confirmation |
-| Packaging and CI | `pyproject.toml`, requirements, workflow, `.gitignore` | Project configuration; external tools are referenced, not copied | Eligible after holder/authority confirmation |
+| Core implementation | `axiom_x/*.py` | Project history and disclosure identify project-authored, AI-assisted implementation; no third-party copyright header, copied-source attribution, or vendored code found | Included under project MIT license |
+| Tests and synthetic fixtures | `tests/*.py` | Inline deterministic fixtures; no research Gold or external dataset row; project-authored with AI assistance | Included under project MIT license |
+| Documentation | Root Markdown files | Project-specific prose; AI assistance disclosed; private assessments and private-file manifests excluded | Included under project MIT license |
+| Prompts | `prompts/*.txt` | Project-specific instructions; no third-party prompt attribution or copied corpus text found | Included under project MIT license |
+| Protocols, schemas, and run config | `protocol/*` | Project-specific research design and configuration; contains no Gold or raw results | Included under project MIT license |
+| Packaging and CI | `pyproject.toml`, requirements, workflow, `.gitignore` | Project configuration; external tools are referenced, not copied | Included under project MIT license |
 
-The evidence supports provisional classification of these files as original
-project material. The project lead must still confirm the legal copyright-holder
-name and authority to license all included classes, including AI-assisted
-material. Until that confirmation, there is no effective `LICENSE` and no public
-release authorization.
+The MIT grant applies only to copyright interests held by TANG ZELUOHE in the
+included project material. It does not override an upstream license or grant
+rights in excluded material.
 
 ## Excluded because rights are not confirmed
 
@@ -32,8 +40,8 @@ release authorization.
 
 ## Third-party components
 
-Z3, pytest, setuptools, `actions/checkout`, and `actions/setup-python` are
-external MIT-licensed dependencies or CI actions. They are referenced or
-installed from upstream and are not vendored. Python's standard library is a
-platform dependency and is not redistributed here. Details are in
-`DEPENDENCY_LICENSES.md`.
+Z3, pytest, their transitive test dependencies, setuptools,
+`actions/checkout`, and `actions/setup-python` retain their upstream licenses.
+They are referenced or installed from upstream and are not vendored. Python's
+standard library is a platform dependency and is not redistributed here.
+Details are in `DEPENDENCY_LICENSES.md`.

@@ -5,7 +5,7 @@ are installed from their upstream distributions; their source is not vendored.
 
 | Component | Use | Version/range | Upstream license | Compatibility finding |
 |---|---|---|---|---|
-| Z3 / `z3-solver` | runtime solver | `4.15.4.0` | MIT | Compatible with a proposed MIT project license |
+| Z3 / `z3-solver` | runtime solver | `4.15.4.0` | MIT | Compatible with the project MIT license |
 | pytest | tests | `9.0.3` | MIT | Compatible; development/test only |
 | iniconfig | pytest dependency | `2.3.1` | MIT | Compatible; development/test only |
 | packaging | pytest dependency | `26.3` | Apache-2.0 OR BSD-2-Clause | Compatible; development/test only |
@@ -27,6 +27,5 @@ Primary upstream references:
 - https://github.com/actions/checkout
 - https://github.com/actions/setup-python
 
-The dependency result does not resolve ownership of this repository's own code,
-documentation, prompts, or protocols. Final legal authorization remains a
-project-lead P0 in `COPYRIGHT_REVIEW.md`.
+These upstream licenses are not replaced by the project `LICENSE`. The
+project-content rights boundary is recorded separately in `COPYRIGHT_REVIEW.md`.

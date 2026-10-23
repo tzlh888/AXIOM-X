@@ -47,11 +47,12 @@ retained only in a local private backup outside this repository.
 
 ## License status
 
-MIT is the proposed project license, but it is **not yet granted**. The project
-lead must first approve the exact license text, copyright year, copyright holder,
-and the rights inventory in `COPYRIGHT_REVIEW.md`. Until that happens, this
-candidate has no `LICENSE` file and must not be described as MIT-licensed or
-open source. `LICENSE-PENDING.md` contains the complete standard MIT text as a
-non-operative draft with an unfilled holder field.
+The included original project material is released under the MIT License:
+`Copyright (c) 2026 TANG ZELUOHE`. See `LICENSE`.
+
+This statement does not relicense third-party dependencies or excluded research
+materials. Dependencies retain their upstream licenses, and material whose
+redistribution rights were not confirmed remains outside this repository. See
+`COPYRIGHT_REVIEW.md`, `DEPENDENCY_LICENSES.md`, and `PRIVATE_EXCLUSIONS.md`.
 
 No GitHub repository, push, or release has been created by this preparation.
