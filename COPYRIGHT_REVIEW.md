@@ -1,47 +1,11 @@
-# Copyright and redistribution review
+# Copyright and redistribution boundary
 
-Status: **MIT configuration confirmed; final publication approval pending**.
-This is a provenance and release-engineering review, not legal advice.
+Original project code, tests, prompts, protocols and project-specific prose retain the project [MIT notice](LICENSE), limited to rights held in that material. AI assistance is disclosed in [DISCLOSURE.md](DISCLOSURE.md); the notice is not evidence of independent invention or applicant implementation.
 
-Confirmed license configuration:
+The third-party textbook content and identified adaptations listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) retain CC BY-SA 4.0. Attribution, source links, existing copyright notice and change descriptions accompany the identifiable file group. The MIT notice does not replace those terms. Independently authored code in the same collection is not represented as copied textbook code.
 
-- License: MIT License
-- Copyright year: 2026
-- Copyright holder: TANG ZELUOHE
+Complete captured website files and their embedded presentation resources are excluded because their full rights scope was not established. New text-only derivatives contain no downloaded scripts, CSS, logos, external assets, solutions or interactive identifiers. Their historical originals and hashes are preserved outside this public derivative. No permission is assumed for an omitted component.
 
-The holder name alone was not treated as proof that every possible project file
-could be licensed. Each included class was reviewed against repository
-provenance, disclosures, attribution markers, and the no-vendoring boundary.
+Dependencies are referenced and installed from verified upstream wheel artifacts; their code is not vendored here. Upstream licenses remain in their distributions. See [DEPENDENCY_LICENSES.md](DEPENDENCY_LICENSES.md) and [DEPENDENCY_ARTIFACTS.json](DEPENDENCY_ARTIFACTS.json).
 
-## Included original-content classes
-
-| Class | Files | Rights evidence and boundary | Treatment |
-|---|---|---|---|
-| Core implementation | `axiom_x/*.py` | Project history and disclosure identify project-authored, AI-assisted implementation; no third-party copyright header, copied-source attribution, or vendored code found | Included under project MIT license |
-| Tests and synthetic fixtures | `tests/*.py` | Inline deterministic fixtures; no research Gold or external dataset row; project-authored with AI assistance | Included under project MIT license |
-| Documentation | Root Markdown files | Project-specific prose; AI assistance disclosed; private assessments and private-file manifests excluded | Included under project MIT license |
-| Prompts | `prompts/*.txt` | Project-specific instructions; no third-party prompt attribution or copied corpus text found | Included under project MIT license |
-| Protocols, schemas, and run config | `protocol/*` | Project-specific research design and configuration; contains no Gold or raw results | Included under project MIT license |
-| Packaging and CI | `pyproject.toml`, requirements, workflow, `.gitignore` | Project configuration; external tools are referenced, not copied | Included under project MIT license |
-
-The MIT grant applies only to copyright interests held by TANG ZELUOHE in the
-included project material. It does not override an upstream license or grant
-rights in excluded material.
-
-## Excluded because rights are not confirmed
-
-| Material | Treatment |
-|---|---|
-| `data/category_summary.csv` | Excluded from the working tree and all candidate history; private checksum-preserved backup retained |
-| `data/cluster_summary.csv` | Excluded from the working tree and all candidate history; private checksum-preserved backup retained |
-| Historical aggregate-statistics script/test | Excluded because public reproduction would require the uncleared CSV files |
-| Candidate Gold, review packets, reference answers, raw predictions/results | Excluded for confidentiality and/or unconfirmed redistribution rights |
-| Private author assessments and recordings | Excluded; retained only as private evidence |
-
-## Third-party components
-
-Z3, pytest, their transitive test dependencies, setuptools,
-`actions/checkout`, and `actions/setup-python` retain their upstream licenses.
-They are referenced or installed from upstream and are not vendored. Python's
-standard library is a platform dependency and is not redistributed here.
-Details are in `DEPENDENCY_LICENSES.md`.
+This is a documented release-engineering scope determination, not independent legal advice or an assertion of rights in all historical private material. Explicit human publication approval of this exact candidate remains required.

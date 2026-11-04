@@ -1,0 +1,27 @@
+{
+  "status": "FROZEN_BEFORE_COMPATIBILITY_TRIAGE_AND_ANY_V5_MODEL_CALL",
+  "source_universe": "All 13 exercise articles in the downloaded DMOI3 section 1.2 HTML snapshot",
+  "author": "Oscar Levin",
+  "source_url": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html",
+  "license": "CC-BY-SA-4.0",
+  "rules": [
+    "Preserve original rendered question, including every subpart and prerequisite context",
+    "No generated parameter changes, difficulty selection, or AXIOM-parser-based eligibility",
+    "Require a bijection to assignments under the existing DSL: at most 8 variables, 20 values per domain, 1000000 assignments, 40 supported constraints",
+    "Exclude proof requests, symbolic expansion targets, essential diagrams, and incomplete context",
+    "Exclude mixed targets or multi-question exercises unless every requested quantity is a supported count; no cherry-picking subparts",
+    "Store all exclusions with reasons; AI compatibility decisions remain provisional until independent human review",
+    "Do not show proposed mappings, answers, model outputs or audit decisions to annotators",
+    "All candidates are Development only, never official Held-out",
+    "No new model calls or effectiveness evaluation before independent Gold is frozen"
+  ],
+  "reviewers_required": 2,
+  "fallback": "One qualified independent reviewer permits only a separately disclosed single-reviewer pilot; zero reviewers blocks evaluation",
+  "model_calls_budget_after_gold": 26,
+  "models": {"gpt-oss:20b": "9ba9cc2b4e02", "deepseek-r1:14b": "c333b7232bdb"},
+  "temperature": 0,
+  "seed": 20261105,
+  "max_output_tokens": 1200,
+  "retries": 0,
+  "paid_api": false
+}

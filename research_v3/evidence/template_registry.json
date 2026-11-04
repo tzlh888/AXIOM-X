@@ -1,0 +1,290 @@
+[
+  {
+    "family": "family_01",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-01-1",
+    "split": "development"
+  },
+  {
+    "family": "family_02",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-02-1",
+    "split": "development"
+  },
+  {
+    "family": "family_03",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-03-1",
+    "split": "development"
+  },
+  {
+    "family": "family_04",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-04-1",
+    "split": "development"
+  },
+  {
+    "family": "family_05",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-05-1",
+    "split": "development"
+  },
+  {
+    "family": "family_06",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-06-1",
+    "split": "development"
+  },
+  {
+    "family": "family_07",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-07-1",
+    "split": "development"
+  },
+  {
+    "family": "family_08",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-08-1",
+    "split": "development"
+  },
+  {
+    "family": "family_09",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-09-1",
+    "split": "development"
+  },
+  {
+    "family": "family_10",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-10-1",
+    "split": "development"
+  },
+  {
+    "family": "family_11",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-11-1",
+    "split": "development"
+  },
+  {
+    "family": "family_12",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-12-1",
+    "split": "development"
+  },
+  {
+    "family": "family_13",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-13-1",
+    "split": "development"
+  },
+  {
+    "family": "family_14",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-14-1",
+    "split": "development"
+  },
+  {
+    "family": "family_15",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-15-1",
+    "split": "development"
+  },
+  {
+    "family": "family_16",
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "CTRL-D-16-1",
+    "split": "development"
+  },
+  {
+    "family": "family_01",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-01-2",
+    "split": "development"
+  },
+  {
+    "family": "family_02",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-02-2",
+    "split": "development"
+  },
+  {
+    "family": "family_03",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-03-2",
+    "split": "development"
+  },
+  {
+    "family": "family_04",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-04-2",
+    "split": "development"
+  },
+  {
+    "family": "family_05",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-05-2",
+    "split": "development"
+  },
+  {
+    "family": "family_06",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-06-2",
+    "split": "development"
+  },
+  {
+    "family": "family_07",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-07-2",
+    "split": "development"
+  },
+  {
+    "family": "family_08",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-08-2",
+    "split": "development"
+  },
+  {
+    "family": "family_09",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-09-2",
+    "split": "development"
+  },
+  {
+    "family": "family_10",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-10-2",
+    "split": "development"
+  },
+  {
+    "family": "family_11",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-11-2",
+    "split": "development"
+  },
+  {
+    "family": "family_12",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-12-2",
+    "split": "development"
+  },
+  {
+    "family": "family_13",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-13-2",
+    "split": "development"
+  },
+  {
+    "family": "family_14",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-14-2",
+    "split": "development"
+  },
+  {
+    "family": "family_15",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-D-15-2",
+    "split": "development"
+  },
+  {
+    "family": "family_16",
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "CTRL-D-16-2",
+    "split": "development"
+  },
+  {
+    "family": "family_01",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-01-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_02",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-02-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_03",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-03-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_04",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-04-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_05",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-05-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_06",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-06-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_07",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-07-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_08",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-08-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_09",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-09-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_10",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-10-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_11",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-11-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_12",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-12-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_13",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-13-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_14",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-14-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_15",
+    "parser_expected": "COMPLETE",
+    "problem_id": "CTRL-C-15-3",
+    "split": "controlled_confirmation"
+  },
+  {
+    "family": "family_16",
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "CTRL-C-16-3",
+    "split": "controlled_confirmation"
+  }
+]

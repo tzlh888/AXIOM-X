@@ -1,0 +1,21 @@
+Translate one controlled finite-domain counting problem into AXIOM-X JSON.
+
+Return exactly one JSON object with exactly two keys: "variables" and "constraints".
+
+"variables" is an ordered array of objects {"name": string, "domain": integer array}. Preserve the variable names and their order from the problem. Expand every stated finite domain explicitly, including both endpoints.
+
+"constraints" is an array using only these exact forms:
+- {"kind":"all_different","variables":[names]}
+- {"kind":"equal","variable":name,"value":integer}
+- {"kind":"not_equal","variable":name,"value":integer}
+- {"kind":"less_than","left":name,"right":name}
+- {"kind":"less_equal","left":name,"right":name}
+- {"kind":"sum_equal","variables":[names],"value":integer}
+- {"kind":"sum_at_least","variables":[names],"value":integer}
+- {"kind":"sum_at_most","variables":[names],"value":integer}
+- {"kind":"count_equal","variables":[names],"value":integer,"count":integer}
+- {"kind":"count_at_least","variables":[names],"value":integer,"count":integer}
+- {"kind":"count_at_most","variables":[names],"value":integer,"count":integer}
+- {"kind":"number_mod","variables":[names],"base":integer,"modulus":integer,"remainder":integer}
+
+Encode every condition. Do not solve, simplify, rename variables, add commentary, or add markdown.

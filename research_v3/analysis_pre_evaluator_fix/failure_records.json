@@ -1,0 +1,52 @@
+[
+  {
+    "answer_label": "UNKNOWN",
+    "b2_1_decision": "ABSTAIN",
+    "b2_1_reason": "PRIMARY_GENERATION_FAILED",
+    "case_id": "CTRL-D-14-1",
+    "group_id": "development",
+    "primary_error": "GenerationFailure: local model generation failed: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "secondary_error": "GenerationFailure: local model generation failed: SpecificationError: invalid equal constraint",
+    "specification_label": "UNKNOWN"
+  },
+  {
+    "answer_label": "CORRECT",
+    "b2_1_decision": "ABSTAIN",
+    "b2_1_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "case_id": "CTRL-D-16-1",
+    "group_id": "development",
+    "primary_error": null,
+    "secondary_error": null,
+    "specification_label": "CORRECT"
+  },
+  {
+    "answer_label": "UNKNOWN",
+    "b2_1_decision": "ABSTAIN",
+    "b2_1_reason": "PRIMARY_GENERATION_FAILED",
+    "case_id": "CTRL-D-14-2",
+    "group_id": "development",
+    "primary_error": "GenerationFailure: local model generation failed: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "secondary_error": "GenerationFailure: local model generation failed: SpecificationError: each variable needs exactly name and domain",
+    "specification_label": "UNKNOWN"
+  },
+  {
+    "answer_label": "CORRECT",
+    "b2_1_decision": "ABSTAIN",
+    "b2_1_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "case_id": "CTRL-D-16-2",
+    "group_id": "development",
+    "primary_error": null,
+    "secondary_error": null,
+    "specification_label": "CORRECT"
+  },
+  {
+    "answer_label": "CORRECT",
+    "b2_1_decision": "ABSTAIN",
+    "b2_1_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "case_id": "CTRL-C-16-3",
+    "group_id": "controlled_confirmation",
+    "primary_error": null,
+    "secondary_error": null,
+    "specification_label": "CORRECT"
+  }
+]

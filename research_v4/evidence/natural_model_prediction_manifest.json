@@ -1,0 +1,13 @@
+{
+  "models": [
+    "gpt-oss:20b",
+    "deepseek-r1:14b"
+  ],
+  "prompt_sha256": "2be19a815526cf140b5e0cee8bee278bfaee9b4c3a9c8e99a6421071b6376702",
+  "protocol_sha256": "6c16b0b21d2a2942eadfa1ba481339806e8842e83e363ac4baa34c76261c1c0d",
+  "row_count": 96,
+  "schema": "axiom-x-v4-natural-model-freeze-v1",
+  "sha256": "6f4cede0c4d6185164dc86da44d073f1bfd5a659723cc7e36f0c42d4e6a021a4",
+  "status": "FROZEN",
+  "task_count": 48
+}

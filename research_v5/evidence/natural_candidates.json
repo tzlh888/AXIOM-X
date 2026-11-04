@@ -1,0 +1,50 @@
+[
+  {
+    "ambiguity_status": "PENDING",
+    "compatibility": "PROVISIONAL_AI_CHECKED_NOT_HUMAN_GOLD",
+    "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+    "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+    "group_id": "ww-binom-subsets-vs",
+    "license": "CC-BY-SA-4.0",
+    "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)",
+    "previous_exposure_risk": "public textbook; model pretraining contamination cannot be excluded; fixed WebWork rendering parameters, not newly human-written items",
+    "problem_id": "V5-LEVIN-1.2.3-1",
+    "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+  },
+  {
+    "ambiguity_status": "PENDING",
+    "compatibility": "PROVISIONAL_AI_CHECKED_NOT_HUMAN_GOLD",
+    "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+    "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+    "group_id": "ww-binom-subsets-vs",
+    "license": "CC-BY-SA-4.0",
+    "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?",
+    "previous_exposure_risk": "public textbook; model pretraining contamination cannot be excluded; fixed WebWork rendering parameters, not newly human-written items",
+    "problem_id": "V5-LEVIN-1.2.3-2",
+    "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+  },
+  {
+    "ambiguity_status": "PENDING",
+    "compatibility": "PROVISIONAL_AI_CHECKED_NOT_HUMAN_GOLD",
+    "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+    "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+    "group_id": "ww-binom-subsets-vs",
+    "license": "CC-BY-SA-4.0",
+    "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) contain only even numbers?",
+    "previous_exposure_risk": "public textbook; model pretraining contamination cannot be excluded; fixed WebWork rendering parameters, not newly human-written items",
+    "problem_id": "V5-LEVIN-1.2.3-3",
+    "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+  },
+  {
+    "ambiguity_status": "PENDING",
+    "compatibility": "PROVISIONAL_AI_CHECKED_NOT_HUMAN_GOLD",
+    "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+    "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+    "group_id": "ww-binom-subsets-vs",
+    "license": "CC-BY-SA-4.0",
+    "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) contain an even number of elements?",
+    "previous_exposure_risk": "public textbook; model pretraining contamination cannot be excluded; fixed WebWork rendering parameters, not newly human-written items",
+    "problem_id": "V5-LEVIN-1.2.3-4",
+    "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+  }
+]

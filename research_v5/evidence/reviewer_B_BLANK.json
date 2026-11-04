@@ -1,0 +1,52 @@
+{
+  "independent_human_attestation": null,
+  "records": [
+    {
+      "ambiguity_status": null,
+      "disagreement_note": null,
+      "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+      "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+      "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)",
+      "problem_id": "V5-LEVIN-1.2.3-1",
+      "rationale": null,
+      "reference_specification": null,
+      "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+    },
+    {
+      "ambiguity_status": null,
+      "disagreement_note": null,
+      "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+      "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+      "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?",
+      "problem_id": "V5-LEVIN-1.2.3-2",
+      "rationale": null,
+      "reference_specification": null,
+      "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+    },
+    {
+      "ambiguity_status": null,
+      "disagreement_note": null,
+      "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+      "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+      "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) contain only even numbers?",
+      "problem_id": "V5-LEVIN-1.2.3-3",
+      "rationale": null,
+      "reference_specification": null,
+      "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+    },
+    {
+      "ambiguity_status": null,
+      "disagreement_note": null,
+      "domain_context": "Membership indicators b1,b2,b3,b4 refer in order to elements 1,2,3,4; each is 0 or 1. Reviewer must verify this bijection.",
+      "full_parent_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) are there? That is, find \\(\\newcommand{\\pow}{\\mathcal P}|\\pow(A)|\\text{.}\\)\nHow many subsets of \\(A\\) contain exactly 3 elements?\nHow many subsets of \\(A\\) contain only even numbers?\nHow many subsets of \\(A\\) contain an even number of elements?",
+      "original_wording": "Let \\(A = {\\left\\{1,2,3,4\\right\\}} \\text{.}\\)\nHow many subsets of \\(A\\) contain an even number of elements?",
+      "problem_id": "V5-LEVIN-1.2.3-4",
+      "rationale": null,
+      "reference_specification": null,
+      "source": "https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html#ww-binom-subsets-vs"
+    }
+  ],
+  "reviewer_id": null,
+  "reviewer_slot": "B",
+  "schema": "axiom-v5-blind-review-v1"
+}

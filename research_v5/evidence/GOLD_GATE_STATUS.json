@@ -1,0 +1,8 @@
+{
+  "baseline_comparison_executed": false,
+  "completed_reviewers": 0,
+  "model_calls_executed": 0,
+  "natural_evaluation_executed": false,
+  "required_reviewers": 2,
+  "status": "BLOCKED_NO_INDEPENDENT_HUMAN_GOLD"
+}

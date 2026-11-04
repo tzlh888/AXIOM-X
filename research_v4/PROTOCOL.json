@@ -1,0 +1,37 @@
+{
+  "schema": "axiom-x-v4-prospective-error-challenge-v1",
+  "status": "FROZEN_BEFORE_DATA_AND_MODEL_EXECUTION",
+  "frozen_on": "2026-11-03",
+  "challenge_rows": 96,
+  "rows_per_mechanism": 8,
+  "natural_model_tasks": 48,
+  "model_order": ["gpt-oss:20b", "deepseek-r1:14b"],
+  "model_hashes": {
+    "gpt-oss:20b": "9ba9cc2b4e02",
+    "deepseek-r1:14b": "c333b7232bdb"
+  },
+  "ollama_endpoint": "http://127.0.0.1:11434/api/generate",
+  "temperature": 0,
+  "seed": 20261104,
+  "max_output_tokens": 1200,
+  "retries": 0,
+  "paid_api": false,
+  "formal_reference_precedes_text": true,
+  "challenge_candidate_origin": "PROSPECTIVELY_DEFINED_SYNTHETIC_SEMANTIC_PERTURBATION",
+  "natural_model_output_origin": "LOCAL_MODEL_GENERATION_WITHOUT_REFERENCE_ACCESS",
+  "metrics": [
+    "counts",
+    "specification_false_certification_rate",
+    "acceptance_coverage",
+    "decision_coverage",
+    "specification_selective_risk",
+    "error_detection_rate",
+    "false_rejection_rate",
+    "correct_specification_abstention_rate",
+    "paired_exact_mcnemar",
+    "mechanism_breakdown"
+  ],
+  "baselines": ["ACCEPT_ALL_VALID", "SOLVER_ONLY", "CHEAP_RULE_ABLATION", "AXIOM_X_B2_1"],
+  "uncertainty": "Wilson 95% intervals plus exact paired McNemar; shared model-task sources are reported per model and not pooled as independent confirmation.",
+  "heldout_operation": "PROHIBITED"
+}

@@ -1,0 +1,1538 @@
+[
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "missing_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MISSING-CONSTRAINT-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "missing_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MISSING-CONSTRAINT-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "missing_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MISSING-CONSTRAINT-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "missing_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MISSING-CONSTRAINT-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-ADDED-CONSTRAINT-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-ADDED-CONSTRAINT-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-ADDED-CONSTRAINT-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-ADDED-CONSTRAINT-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NEGATION-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NEGATION-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NEGATION-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-NEGATION-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-EQUALITY-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-EQUALITY-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-EQUALITY-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-INCORRECT-EQUALITY-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "cardinality_mistake",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CARDINALITY-MISTAKE-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "cardinality_mistake",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CARDINALITY-MISTAKE-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "cardinality_mistake",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CARDINALITY-MISTAKE-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "cardinality_mistake",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CARDINALITY-MISTAKE-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "REJECT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "GENERATION_FAILED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ABSTAIN",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ABSTAIN",
+      "SOLVER_ONLY": "ABSTAIN"
+    },
+    "label": "UNKNOWN",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-03",
+    "valid_output": false
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "REJECT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-05",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-05",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-06",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-06",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-07",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-07",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-08",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-CORRECT-SPECIFICATION-08",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "gpt-oss:20b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_numerical_bounds",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "missing_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MISSING-CONSTRAINT-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "GENERATION_FAILED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ABSTAIN",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ABSTAIN",
+      "SOLVER_ONLY": "ABSTAIN"
+    },
+    "label": "UNKNOWN",
+    "mechanism_family": "missing_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MISSING-CONSTRAINT-02",
+    "valid_output": false
+  },
+  {
+    "axiom_reason": "SEMANTIC_MAPPING_OR_COMPARISON_UNPROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "UNKNOWN",
+    "mechanism_family": "missing_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MISSING-CONSTRAINT-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "GENERATION_FAILED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MISSING-CONSTRAINT-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ABSTAIN",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ABSTAIN",
+      "SOLVER_ONLY": "ABSTAIN"
+    },
+    "label": "UNKNOWN",
+    "mechanism_family": "missing_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MISSING-CONSTRAINT-04",
+    "valid_output": false
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-ADDED-CONSTRAINT-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-ADDED-CONSTRAINT-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-ADDED-CONSTRAINT-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-ADDED-CONSTRAINT-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "added_constraint",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-ADDED-CONSTRAINT-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_logical_operator",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NEGATION-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NEGATION-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NEGATION-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-NEGATION-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_negation",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-NEGATION-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-EQUALITY-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-EQUALITY-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-EQUALITY-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-INCORRECT-EQUALITY-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "incorrect_equality",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-INCORRECT-EQUALITY-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-VARIABLE-MAPPING-ERROR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "variable_mapping_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-VARIABLE-MAPPING-ERROR-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "cardinality_mistake",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CARDINALITY-MISTAKE-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "cardinality_mistake",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CARDINALITY-MISTAKE-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "GENERATION_FAILED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ABSTAIN",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ABSTAIN",
+      "SOLVER_ONLY": "ABSTAIN"
+    },
+    "label": "UNKNOWN",
+    "mechanism_family": "cardinality_mistake",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CARDINALITY-MISTAKE-03",
+    "valid_output": false
+  },
+  {
+    "axiom_reason": "GENERATION_FAILED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CARDINALITY-MISTAKE-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ABSTAIN",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ABSTAIN",
+      "SOLVER_ONLY": "ABSTAIN"
+    },
+    "label": "UNKNOWN",
+    "mechanism_family": "cardinality_mistake",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CARDINALITY-MISTAKE-04",
+    "valid_output": false
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "REJECT",
+      "CHEAP_RULE_ABLATION": "REJECT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "ERROR",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "REJECT",
+      "CHEAP_RULE_ABLATION": "REJECT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "ERROR",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "REJECT",
+      "CHEAP_RULE_ABLATION": "REJECT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "ERROR",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-MODULO-REMAINDER-ERROR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "REJECT",
+      "CHEAP_RULE_ABLATION": "REJECT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "ERROR",
+    "mechanism_family": "modulo_remainder_error",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-MODULO-REMAINDER-ERROR-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-04",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-05",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-05",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-06",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-06",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-07",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-07",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "PRIMARY_PUBLIC_TEXT_EQUIVALENCE_PROVED",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-CORRECT-SPECIFICATION-08",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ACCEPT",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "correct_specification",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-CORRECT-SPECIFICATION-08",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-01",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-01",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-02",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-02",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-03",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-03",
+    "valid_output": true
+  },
+  {
+    "axiom_reason": "SEMANTIC_EVIDENCE_INSUFFICIENT",
+    "candidate_origin": "NATURAL_MODEL_GENERATED",
+    "case_id": "V4-UNSUPPORTED-GRAMMAR-04",
+    "decisions": {
+      "ACCEPT_ALL_VALID": "ACCEPT",
+      "AXIOM_X_B2_1": "ABSTAIN",
+      "CHEAP_RULE_ABLATION": "ACCEPT",
+      "SOLVER_ONLY": "ACCEPT"
+    },
+    "label": "CORRECT",
+    "mechanism_family": "unsupported_grammar",
+    "model": "deepseek-r1:14b",
+    "source_group": "V4-UNSUPPORTED-GRAMMAR-04",
+    "valid_output": true
+  }
+]

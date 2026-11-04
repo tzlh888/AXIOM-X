@@ -1,0 +1,45 @@
+{
+  "schema": "axiom-x-v4-v3-reliability-audit-v1",
+  "audit_date": "2026-11-03",
+  "v3_branch_head": "9d2e6e0f989a1410cb99f9401de664c9481c8073",
+  "evaluator_bug": {
+    "introduced_at": "42e392fc8bac929ed40b794a20d80a914cf9744f",
+    "fixed_at": "1f8189750abad30541bcd7e67728aa4d1253bd11",
+    "root_cause": "evaluation_v2._label treated any serialized domain-tuple difference as ERROR before checking finite solution-set equivalence",
+    "known_affected_v3_rows": [
+      "CTRL-D-10-1",
+      "CTRL-C-10-3",
+      "CTRL-C-14-3"
+    ],
+    "pre_fix_behavior": "three semantically equivalent constraint-absorbed domain encodings were labelled ERROR",
+    "post_fix_behavior": "exact-name finite solution-set comparison labels all three CORRECT",
+    "historical_scope": "Any result computed with the old evaluator and containing equivalent domain restriction encodings is potentially affected. The current public release does not contain raw historical private predictions needed to audit every earlier result.",
+    "v3_recomputed_from_frozen_predictions": true,
+    "v3_corrected_summary_sha256": "344f1bea7ed81ec2ca0f44967299e7e46ff6a84f75ceac5bad26610c3ccbbfcc"
+  },
+  "additional_semantic_checks": [
+    {"check": "domain value reordering", "result": "EQUIVALENT"},
+    {"check": "variable declaration reordering with exact names", "result": "EQUIVALENT"},
+    {"check": "strict versus non-strict inequality", "result": "DIFFERENT"},
+    {"check": "alpha-renaming without proved mapping", "result": "UNKNOWN"},
+    {"check": "unsupported/free-form text", "result": "ABSTAIN"},
+    {"check": "prediction freeze hash", "result": "VERIFIED"},
+    {"check": "deterministic V3 analysis regeneration", "result": "BYTE_IDENTICAL"}
+  ],
+  "gold_leakage_audit": {
+    "public_input_forbidden_fields_blocked": true,
+    "providers_receive_only_problem_id_and_problem_text": true,
+    "prediction_commit_precedes_evaluation_commit": true,
+    "changing_gold_cannot_change_frozen_prediction_bytes": true,
+    "v4_model_public_text_exact_overlap_with_v3": 0,
+    "finding": "NO_REFERENCE_TO_MODEL_LEAKAGE_FOUND"
+  },
+  "remaining_boundaries": [
+    "exact-name mapping deliberately makes unproved variable renaming UNKNOWN",
+    "answer correctness is conditional on specification correctness; proposed answer is derived from the candidate solver path",
+    "fixed controlled grammar does not establish unrestricted natural-language fidelity",
+    "solver timeout or resource exhaustion remains UNKNOWN/ABSTAIN",
+    "automatic formal-first references are not independent human Gold"
+  ],
+  "overall_v3_reliability": "CORRECTED V3 RESULTS ARE INTERNALLY REPRODUCIBLE; EXTERNAL NATURAL VALIDITY REMAINS UNESTABLISHED"
+}

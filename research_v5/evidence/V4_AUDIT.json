@@ -1,0 +1,587 @@
+{
+  "baseline_finding": "same inputs and solver status; frozen cheap-rule is a weak syntactic baseline checking only all_different/nonzero; it has no modulo logic",
+  "corrected_natural_error_attribution": [
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-01",
+      "cheap_rule": {
+        "decision": "REJECT",
+        "reason_code": "RULE_MISSING_ALL_DIFFERENT"
+      },
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "d0mo1"
+        },
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "d1mo1"
+        },
+        {
+          "kind": "equal",
+          "value": 3,
+          "variable": "d2mo1"
+        }
+      ],
+      "modulo_constraint_present": false,
+      "observed_output_mechanisms": [
+        "fixed_assignment_instead_of_full_solution_set",
+        "missing_all_different",
+        "missing_explicit_nonzero"
+      ],
+      "source_task_family": "modulo_remainder_error"
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-02",
+      "cheap_rule": {
+        "decision": "REJECT",
+        "reason_code": "RULE_MISSING_ALL_DIFFERENT"
+      },
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "d0mo2"
+        },
+        {
+          "kind": "equal",
+          "value": 0,
+          "variable": "d1mo2"
+        },
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "d2mo2"
+        }
+      ],
+      "modulo_constraint_present": false,
+      "observed_output_mechanisms": [
+        "fixed_assignment_instead_of_full_solution_set",
+        "missing_all_different",
+        "missing_explicit_nonzero"
+      ],
+      "source_task_family": "modulo_remainder_error"
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-03",
+      "cheap_rule": {
+        "decision": "REJECT",
+        "reason_code": "RULE_MISSING_ALL_DIFFERENT"
+      },
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "d0mo3"
+        },
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "d1mo3"
+        },
+        {
+          "kind": "equal",
+          "value": 3,
+          "variable": "d2mo3"
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 2,
+          "variables": [
+            "d0mo3",
+            "d1mo3",
+            "d2mo3"
+          ]
+        }
+      ],
+      "modulo_constraint_present": true,
+      "observed_output_mechanisms": [
+        "fixed_assignment_instead_of_full_solution_set",
+        "missing_all_different",
+        "missing_explicit_nonzero"
+      ],
+      "source_task_family": "modulo_remainder_error"
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-04",
+      "cheap_rule": {
+        "decision": "REJECT",
+        "reason_code": "RULE_MISSING_ALL_DIFFERENT"
+      },
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 0,
+          "variable": "d0mo4"
+        },
+        {
+          "kind": "equal",
+          "value": 0,
+          "variable": "d1mo4"
+        },
+        {
+          "kind": "equal",
+          "value": 0,
+          "variable": "d2mo4"
+        }
+      ],
+      "modulo_constraint_present": false,
+      "observed_output_mechanisms": [
+        "fixed_assignment_instead_of_full_solution_set",
+        "missing_all_different",
+        "missing_explicit_nonzero"
+      ],
+      "source_task_family": "modulo_remainder_error"
+    }
+  ],
+  "direct_mathematical_reference_checks": [
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+      "count": 15,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+      "count": 21,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-05",
+      "count": 15,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-06",
+      "count": 21,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-07",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NUMERICAL-BOUNDS-08",
+      "count": 15,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-01",
+      "count": 18,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-02",
+      "count": 24,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-03",
+      "count": 18,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-04",
+      "count": 18,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-05",
+      "count": 18,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-06",
+      "count": 24,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-07",
+      "count": 18,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MISSING-CONSTRAINT-08",
+      "count": 24,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-01",
+      "count": 26,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-02",
+      "count": 34,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-03",
+      "count": 43,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-04",
+      "count": 26,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-05",
+      "count": 34,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-06",
+      "count": 43,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-07",
+      "count": 26,
+      "matches": true
+    },
+    {
+      "case_id": "V4-ADDED-CONSTRAINT-08",
+      "count": 34,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+      "count": 15,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+      "count": 21,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+      "count": 28,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+      "count": 36,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-05",
+      "count": 15,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-06",
+      "count": 21,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-07",
+      "count": 28,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-LOGICAL-OPERATOR-08",
+      "count": 36,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-01",
+      "count": 30,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-02",
+      "count": 42,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-03",
+      "count": 56,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-04",
+      "count": 72,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-05",
+      "count": 30,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-06",
+      "count": 42,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-07",
+      "count": 56,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-NEGATION-08",
+      "count": 72,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-01",
+      "count": 6,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-02",
+      "count": 7,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-03",
+      "count": 8,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-04",
+      "count": 6,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-05",
+      "count": 7,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-06",
+      "count": 8,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-07",
+      "count": 6,
+      "matches": true
+    },
+    {
+      "case_id": "V4-INCORRECT-EQUALITY-08",
+      "count": 7,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-01",
+      "count": 5,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-02",
+      "count": 6,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-03",
+      "count": 7,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-04",
+      "count": 8,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-05",
+      "count": 5,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-06",
+      "count": 6,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-07",
+      "count": 7,
+      "matches": true
+    },
+    {
+      "case_id": "V4-VARIABLE-MAPPING-ERROR-08",
+      "count": 8,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-01",
+      "count": 5,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-02",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-03",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-04",
+      "count": 5,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-05",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-06",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-07",
+      "count": 5,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CARDINALITY-MISTAKE-08",
+      "count": 10,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-01",
+      "count": 160,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-02",
+      "count": 164,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-03",
+      "count": 168,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-04",
+      "count": 156,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-05",
+      "count": 160,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-06",
+      "count": 164,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-07",
+      "count": 168,
+      "matches": true
+    },
+    {
+      "case_id": "V4-MODULO-REMAINDER-ERROR-08",
+      "count": 156,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-01",
+      "count": 29,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-02",
+      "count": 34,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-03",
+      "count": 35,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-04",
+      "count": 28,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-05",
+      "count": 33,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-06",
+      "count": 38,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-07",
+      "count": 29,
+      "matches": true
+    },
+    {
+      "case_id": "V4-CORRECT-SPECIFICATION-08",
+      "count": 34,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-01",
+      "count": 3,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-02",
+      "count": 3,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-03",
+      "count": 3,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-04",
+      "count": 3,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-05",
+      "count": 3,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-06",
+      "count": 3,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-07",
+      "count": 3,
+      "matches": true
+    },
+    {
+      "case_id": "V4-UNSUPPORTED-GRAMMAR-08",
+      "count": 3,
+      "matches": true
+    }
+  ],
+  "human_independent_validation": false,
+  "selection_finding": "freeze._validate_case consults parse_public_problem and checks reference equivalence before inclusion; parser-conditioned eligibility, not independent semantic selection",
+  "status": "V4_COUNTS_REPRODUCE_WITH_INTERPRETATION_CORRECTIONS",
+  "systematic_risk": "formal-first templates, parser and DSL share intended semantics; Python and Z3 agreement cannot establish intended natural meaning",
+  "uncertainty_finding": "Wilson and exact McNemar arithmetic reproduce, but repeated families/parameter settings make iid population inference unwarranted"
+}

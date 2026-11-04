@@ -1,0 +1,2630 @@
+[
+  {
+    "answer": 18,
+    "human_review": false,
+    "problem_id": "CTRL-D-01-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "ad1",
+            "bd1",
+            "cd1"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 3,
+          "variables": [
+            "ad1",
+            "bd1",
+            "cd1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-01-1",
+      "problem_id": "CTRL-D-01-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "bd1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "cd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 60,
+    "human_review": false,
+    "problem_id": "CTRL-D-02-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "ad1",
+            "bd1",
+            "cd1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-02-1",
+      "problem_id": "CTRL-D-02-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "bd1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "cd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "human_review": false,
+    "problem_id": "CTRL-D-03-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ad1",
+          "right": "bd1"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-03-1",
+      "problem_id": "CTRL-D-03-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 21,
+    "human_review": false,
+    "problem_id": "CTRL-D-04-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_equal",
+          "left": "ad1",
+          "right": "bd1"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-04-1",
+      "problem_id": "CTRL-D-04-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 17,
+    "human_review": false,
+    "problem_id": "CTRL-D-05-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ad1",
+          "right": "bd1"
+        },
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "ad1"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-05-1",
+      "problem_id": "CTRL-D-05-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 24,
+    "human_review": false,
+    "problem_id": "CTRL-D-06-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 3,
+          "variables": [
+            "ad1",
+            "bd1"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "ad1",
+            "bd1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-06-1",
+      "problem_id": "CTRL-D-06-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 28,
+    "human_review": false,
+    "problem_id": "CTRL-D-07-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 4,
+          "variables": [
+            "ad1",
+            "bd1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-07-1",
+      "problem_id": "CTRL-D-07-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "human_review": false,
+    "problem_id": "CTRL-D-08-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "bd1"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-08-1",
+      "problem_id": "CTRL-D-08-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 30,
+    "human_review": false,
+    "problem_id": "CTRL-D-09-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "bd1"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-09-1",
+      "problem_id": "CTRL-D-09-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "human_review": false,
+    "problem_id": "CTRL-D-10-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "zd1"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-10-1",
+      "problem_id": "CTRL-D-10-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "zd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "human_review": false,
+    "problem_id": "CTRL-D-11-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "q0d1",
+            "q1d1",
+            "q2d1",
+            "q3d1",
+            "q4d1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-11-1",
+      "problem_id": "CTRL-D-11-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4d1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 16,
+    "human_review": false,
+    "problem_id": "CTRL-D-12-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_at_least",
+          "value": 1,
+          "variables": [
+            "q0d1",
+            "q1d1",
+            "q2d1",
+            "q3d1",
+            "q4d1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-12-1",
+      "problem_id": "CTRL-D-12-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4d1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 16,
+    "human_review": false,
+    "problem_id": "CTRL-D-13-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_at_most",
+          "value": 1,
+          "variables": [
+            "q0d1",
+            "q1d1",
+            "q2d1",
+            "q3d1",
+            "q4d1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-13-1",
+      "problem_id": "CTRL-D-13-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3d1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4d1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 164,
+    "human_review": false,
+    "problem_id": "CTRL-D-14-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0d1"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0d1",
+            "d1d1",
+            "d2d1"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 1,
+          "variables": [
+            "d0d1",
+            "d1d1",
+            "d2d1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-14-1",
+      "problem_id": "CTRL-D-14-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0d1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1d1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2d1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 6,
+    "human_review": false,
+    "problem_id": "CTRL-D-15-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 2,
+          "variable": "ad1"
+        },
+        {
+          "kind": "sum_equal",
+          "value": 6,
+          "variables": [
+            "ad1",
+            "bd1"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-15-1",
+      "problem_id": "CTRL-D-15-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "human_review": false,
+    "problem_id": "CTRL-D-16-1",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ad1",
+          "right": "bd1"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-16-1",
+      "problem_id": "CTRL-D-16-1",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            2,
+            5
+          ],
+          "name": "ad1"
+        },
+        {
+          "domain": [
+            0,
+            2,
+            5
+          ],
+          "name": "bd1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 18,
+    "human_review": false,
+    "problem_id": "CTRL-D-01-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "ad2",
+            "bd2",
+            "cd2"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 6,
+          "variables": [
+            "ad2",
+            "bd2",
+            "cd2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-01-2",
+      "problem_id": "CTRL-D-01-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "bd2"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "cd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 120,
+    "human_review": false,
+    "problem_id": "CTRL-D-02-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "ad2",
+            "bd2",
+            "cd2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-02-2",
+      "problem_id": "CTRL-D-02-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bd2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "cd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "human_review": false,
+    "problem_id": "CTRL-D-03-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ad2",
+          "right": "bd2"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-03-2",
+      "problem_id": "CTRL-D-03-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 21,
+    "human_review": false,
+    "problem_id": "CTRL-D-04-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_equal",
+          "left": "ad2",
+          "right": "bd2"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-04-2",
+      "problem_id": "CTRL-D-04-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 23,
+    "human_review": false,
+    "problem_id": "CTRL-D-05-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ad2",
+          "right": "bd2"
+        },
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "ad2"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-05-2",
+      "problem_id": "CTRL-D-05-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 29,
+    "human_review": false,
+    "problem_id": "CTRL-D-06-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 4,
+          "variables": [
+            "ad2",
+            "bd2"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 8,
+          "variables": [
+            "ad2",
+            "bd2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-06-2",
+      "problem_id": "CTRL-D-06-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 36,
+    "human_review": false,
+    "problem_id": "CTRL-D-07-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 5,
+          "variables": [
+            "ad2",
+            "bd2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-07-2",
+      "problem_id": "CTRL-D-07-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 8,
+    "human_review": false,
+    "problem_id": "CTRL-D-08-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 3,
+          "variable": "bd2"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-08-2",
+      "problem_id": "CTRL-D-08-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 42,
+    "human_review": false,
+    "problem_id": "CTRL-D-09-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "bd2"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-09-2",
+      "problem_id": "CTRL-D-09-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 8,
+    "human_review": false,
+    "problem_id": "CTRL-D-10-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "zd2"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-10-2",
+      "problem_id": "CTRL-D-10-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "zd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "human_review": false,
+    "problem_id": "CTRL-D-11-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "q0d2",
+            "q1d2",
+            "q2d2",
+            "q3d2",
+            "q4d2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-11-2",
+      "problem_id": "CTRL-D-11-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4d2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 16,
+    "human_review": false,
+    "problem_id": "CTRL-D-12-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_at_least",
+          "value": 1,
+          "variables": [
+            "q0d2",
+            "q1d2",
+            "q2d2",
+            "q3d2",
+            "q4d2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-12-2",
+      "problem_id": "CTRL-D-12-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4d2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 26,
+    "human_review": false,
+    "problem_id": "CTRL-D-13-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_at_most",
+          "value": 1,
+          "variables": [
+            "q0d2",
+            "q1d2",
+            "q2d2",
+            "q3d2",
+            "q4d2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-13-2",
+      "problem_id": "CTRL-D-13-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3d2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4d2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 168,
+    "human_review": false,
+    "problem_id": "CTRL-D-14-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0d2"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0d2",
+            "d1d2",
+            "d2d2"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 2,
+          "variables": [
+            "d0d2",
+            "d1d2",
+            "d2d2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-14-2",
+      "problem_id": "CTRL-D-14-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0d2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1d2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2d2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "human_review": false,
+    "problem_id": "CTRL-D-15-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 3,
+          "variable": "ad2"
+        },
+        {
+          "kind": "sum_equal",
+          "value": 7,
+          "variables": [
+            "ad2",
+            "bd2"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-D-15-2",
+      "problem_id": "CTRL-D-15-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "human_review": false,
+    "problem_id": "CTRL-D-16-2",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ad2",
+          "right": "bd2"
+        }
+      ],
+      "generation_id": "reference-CTRL-D-16-2",
+      "problem_id": "CTRL-D-16-2",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            3,
+            6
+          ],
+          "name": "ad2"
+        },
+        {
+          "domain": [
+            0,
+            3,
+            6
+          ],
+          "name": "bd2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 18,
+    "human_review": false,
+    "problem_id": "CTRL-C-01-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "ac3",
+            "bc3",
+            "cc3"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 9,
+          "variables": [
+            "ac3",
+            "bc3",
+            "cc3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-01-3",
+      "problem_id": "CTRL-C-01-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bc3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "cc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 210,
+    "human_review": false,
+    "problem_id": "CTRL-C-02-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "ac3",
+            "bc3",
+            "cc3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-02-3",
+      "problem_id": "CTRL-C-02-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "bc3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "cc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "human_review": false,
+    "problem_id": "CTRL-C-03-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ac3",
+          "right": "bc3"
+        }
+      ],
+      "generation_id": "reference-CTRL-C-03-3",
+      "problem_id": "CTRL-C-03-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 21,
+    "human_review": false,
+    "problem_id": "CTRL-C-04-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_equal",
+          "left": "ac3",
+          "right": "bc3"
+        }
+      ],
+      "generation_id": "reference-CTRL-C-04-3",
+      "problem_id": "CTRL-C-04-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 30,
+    "human_review": false,
+    "problem_id": "CTRL-C-05-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ac3",
+          "right": "bc3"
+        },
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "ac3"
+        }
+      ],
+      "generation_id": "reference-CTRL-C-05-3",
+      "problem_id": "CTRL-C-05-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 34,
+    "human_review": false,
+    "problem_id": "CTRL-C-06-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 5,
+          "variables": [
+            "ac3",
+            "bc3"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 9,
+          "variables": [
+            "ac3",
+            "bc3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-06-3",
+      "problem_id": "CTRL-C-06-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 45,
+    "human_review": false,
+    "problem_id": "CTRL-C-07-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "ac3",
+            "bc3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-07-3",
+      "problem_id": "CTRL-C-07-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 9,
+    "human_review": false,
+    "problem_id": "CTRL-C-08-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 4,
+          "variable": "bc3"
+        }
+      ],
+      "generation_id": "reference-CTRL-C-08-3",
+      "problem_id": "CTRL-C-08-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 56,
+    "human_review": false,
+    "problem_id": "CTRL-C-09-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "bc3"
+        }
+      ],
+      "generation_id": "reference-CTRL-C-09-3",
+      "problem_id": "CTRL-C-09-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 9,
+    "human_review": false,
+    "problem_id": "CTRL-C-10-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "zc3"
+        }
+      ],
+      "generation_id": "reference-CTRL-C-10-3",
+      "problem_id": "CTRL-C-10-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "zc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 5,
+    "human_review": false,
+    "problem_id": "CTRL-C-11-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 4,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "q0c3",
+            "q1c3",
+            "q2c3",
+            "q3c3",
+            "q4c3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-11-3",
+      "problem_id": "CTRL-C-11-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4c3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 16,
+    "human_review": false,
+    "problem_id": "CTRL-C-12-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_at_least",
+          "value": 1,
+          "variables": [
+            "q0c3",
+            "q1c3",
+            "q2c3",
+            "q3c3",
+            "q4c3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-12-3",
+      "problem_id": "CTRL-C-12-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4c3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 31,
+    "human_review": false,
+    "problem_id": "CTRL-C-13-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "count": 4,
+          "kind": "count_at_most",
+          "value": 1,
+          "variables": [
+            "q0c3",
+            "q1c3",
+            "q2c3",
+            "q3c3",
+            "q4c3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-13-3",
+      "problem_id": "CTRL-C-13-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q0c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q1c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q2c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q3c3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "q4c3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 156,
+    "human_review": false,
+    "problem_id": "CTRL-C-14-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0c3"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0c3",
+            "d1c3",
+            "d2c3"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 3,
+          "variables": [
+            "d0c3",
+            "d1c3",
+            "d2c3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-14-3",
+      "problem_id": "CTRL-C-14-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0c3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1c3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2c3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 8,
+    "human_review": false,
+    "problem_id": "CTRL-C-15-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 4,
+          "variable": "ac3"
+        },
+        {
+          "kind": "sum_equal",
+          "value": 8,
+          "variables": [
+            "ac3",
+            "bc3"
+          ]
+        }
+      ],
+      "generation_id": "reference-CTRL-C-15-3",
+      "problem_id": "CTRL-C-15-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "human_review": false,
+    "problem_id": "CTRL-C-16-3",
+    "reference_origin": "formal-specification-created-before-text-rendering",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "ac3",
+          "right": "bc3"
+        }
+      ],
+      "generation_id": "reference-CTRL-C-16-3",
+      "problem_id": "CTRL-C-16-3",
+      "source": "controlled-formal-first-v1",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            4,
+            7
+          ],
+          "name": "ac3"
+        },
+        {
+          "domain": [
+            0,
+            4,
+            7
+          ],
+          "name": "bc3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  }
+]

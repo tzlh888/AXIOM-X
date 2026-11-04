@@ -1,0 +1,23 @@
+{
+  "models": {
+    "primary": "gpt-oss:20b",
+    "secondary": "deepseek-r1:14b"
+  },
+  "prediction_file": "predictions.jsonl",
+  "prompt_sha256": "2be19a815526cf140b5e0cee8bee278bfaee9b4c3a9c8e99a6421071b6376702",
+  "protocol_sha256": "6c63591e2386303fedb1953174bcc27398da02fa3cdbfc8fcba8c33db92760e3",
+  "resource_use": {
+    "actual_cost_usd": 0.0,
+    "input_price_usd_per_million": 0,
+    "input_tokens": 35847,
+    "latency_ms": 1797621,
+    "output_price_usd_per_million": 0,
+    "output_tokens": 24559,
+    "pricing_checked_on": "2026-11-03",
+    "pricing_source": "local://ollama/no-paid-api"
+  },
+  "row_count": 48,
+  "schema": "axiom-x-v2-1-freeze-v1",
+  "sha256": "c58addfe19caf86327679bf0f940ca4f7d04cf18b32f4f4074fdb9b47cf59436",
+  "variant": "B2_1"
+}

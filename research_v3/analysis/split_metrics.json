@@ -1,0 +1,1692 @@
+{
+  "controlled_confirmation": {
+    "B0": {
+      "abstention_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 16,
+        "numerator": 16,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8063923194655637,
+          1.0
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 16,
+        "numerator": 16,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8063923194655637,
+          1.0
+        ]
+      },
+      "counts": {
+        "abstained": 0,
+        "accepted": 16,
+        "answer_unknown": 0,
+        "rejected": 0,
+        "specification_unknown": 0
+      },
+      "decision_coverage": {
+        "denominator": 16,
+        "numerator": 16,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8063923194655637,
+          1.0
+        ]
+      },
+      "n": 16,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 6768,
+        "latency_ms": 367000,
+        "model_calls": 16,
+        "output_tokens": 6605,
+        "tokens": 13373
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      }
+    },
+    "B1": {
+      "abstention_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 15,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.20388330103584862
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "counts": {
+        "abstained": 0,
+        "accepted": 15,
+        "answer_unknown": 0,
+        "rejected": 1,
+        "specification_unknown": 0
+      },
+      "decision_coverage": {
+        "denominator": 16,
+        "numerator": 16,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8063923194655637,
+          1.0
+        ]
+      },
+      "n": 16,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 6768,
+        "latency_ms": 367000,
+        "model_calls": 16,
+        "output_tokens": 6605,
+        "tokens": 13373
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 15,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.20388330103584862
+        ]
+      }
+    },
+    "B2": {
+      "abstention_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 16,
+        "numerator": 14,
+        "status": "DEFINED",
+        "value": 0.875,
+        "wilson_95": [
+          0.639771727342413,
+          0.9650225122567595
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 14,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          1.3877787807814457e-17,
+          0.2153108027376358
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 16,
+        "numerator": 14,
+        "status": "DEFINED",
+        "value": 0.875,
+        "wilson_95": [
+          0.639771727342413,
+          0.9650225122567595
+        ]
+      },
+      "counts": {
+        "abstained": 1,
+        "accepted": 14,
+        "answer_unknown": 0,
+        "rejected": 1,
+        "specification_unknown": 0
+      },
+      "decision_coverage": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "n": 16,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 12509,
+        "latency_ms": 698818,
+        "model_calls": 32,
+        "output_tokens": 8979,
+        "tokens": 21488
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 14,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          1.3877787807814457e-17,
+          0.2153108027376358
+        ]
+      }
+    },
+    "B2_1": {
+      "abstention_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 15,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.20388330103584862
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "counts": {
+        "abstained": 1,
+        "accepted": 15,
+        "answer_unknown": 0,
+        "rejected": 0,
+        "specification_unknown": 0
+      },
+      "decision_coverage": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "n": 16,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 12509,
+        "latency_ms": 698818,
+        "model_calls": 32,
+        "output_tokens": 8979,
+        "tokens": 21488
+      },
+      "specification_disagreement_rate": {
+        "denominator": 16,
+        "numerator": 2,
+        "status": "DEFINED",
+        "value": 0.125,
+        "wilson_95": [
+          0.03497748774324047,
+          0.36022827265758695
+        ]
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 15,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.20388330103584862
+        ]
+      }
+    },
+    "B3": {
+      "abstention_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 15,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.20388330103584862
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 16,
+        "numerator": 15,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7167126242970107,
+          0.9888806552353576
+        ]
+      },
+      "counts": {
+        "abstained": 0,
+        "accepted": 15,
+        "answer_unknown": 0,
+        "rejected": 1,
+        "specification_unknown": 0
+      },
+      "decision_coverage": {
+        "denominator": 16,
+        "numerator": 16,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8063923194655637,
+          1.0
+        ]
+      },
+      "n": 16,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 6768,
+        "latency_ms": 367000,
+        "model_calls": 16,
+        "output_tokens": 6605,
+        "tokens": 13373
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 15,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.20388330103584862
+        ]
+      }
+    }
+  },
+  "development": {
+    "B0": {
+      "abstention_rate": {
+        "denominator": 32,
+        "numerator": 2,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.017310567031640967,
+          0.2014712314415458
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 32,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7985287685584542,
+          0.982689432968359
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 30,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8864866068260312,
+          0.9999999999999999
+        ]
+      },
+      "counts": {
+        "abstained": 2,
+        "accepted": 30,
+        "answer_unknown": 2,
+        "rejected": 0,
+        "specification_unknown": 2
+      },
+      "decision_coverage": {
+        "denominator": 32,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7985287685584542,
+          0.982689432968359
+        ]
+      },
+      "n": 32,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 12632,
+        "latency_ms": 596865,
+        "model_calls": 32,
+        "output_tokens": 11438,
+        "tokens": 24070
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      }
+    },
+    "B1": {
+      "abstention_rate": {
+        "denominator": 32,
+        "numerator": 2,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.017310567031640967,
+          0.2014712314415458
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 32,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7985287685584542,
+          0.982689432968359
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 30,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8864866068260312,
+          0.9999999999999999
+        ]
+      },
+      "counts": {
+        "abstained": 2,
+        "accepted": 30,
+        "answer_unknown": 2,
+        "rejected": 0,
+        "specification_unknown": 2
+      },
+      "decision_coverage": {
+        "denominator": 32,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7985287685584542,
+          0.982689432968359
+        ]
+      },
+      "n": 32,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 12632,
+        "latency_ms": 596865,
+        "model_calls": 32,
+        "output_tokens": 11438,
+        "tokens": 24070
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      }
+    },
+    "B2": {
+      "abstention_rate": {
+        "denominator": 32,
+        "numerator": 4,
+        "status": "DEFINED",
+        "value": 0.125,
+        "wilson_95": [
+          0.04970134387480073,
+          0.2806830548165022
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 32,
+        "numerator": 27,
+        "status": "DEFINED",
+        "value": 0.84375,
+        "wilson_95": [
+          0.682458504024696,
+          0.9313557971749429
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.03333333333333333,
+        "wilson_95": [
+          0.005908590381612455,
+          0.16670390991409173
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 27,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.12455502974186705
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 30,
+        "numerator": 27,
+        "status": "DEFINED",
+        "value": 0.9,
+        "wilson_95": [
+          0.7437891742081593,
+          0.9654001112526658
+        ]
+      },
+      "counts": {
+        "abstained": 4,
+        "accepted": 27,
+        "answer_unknown": 2,
+        "rejected": 1,
+        "specification_unknown": 2
+      },
+      "decision_coverage": {
+        "denominator": 32,
+        "numerator": 28,
+        "status": "DEFINED",
+        "value": 0.875,
+        "wilson_95": [
+          0.7193169451834978,
+          0.9502986561251991
+        ]
+      },
+      "n": 32,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 23338,
+        "latency_ms": 1098803,
+        "model_calls": 64,
+        "output_tokens": 15580,
+        "tokens": 38918
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 1,
+        "status": "DEFINED",
+        "value": 0.03333333333333333,
+        "wilson_95": [
+          0.005908590381612455,
+          0.16670390991409173
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 27,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.12455502974186705
+        ]
+      }
+    },
+    "B2_1": {
+      "abstention_rate": {
+        "denominator": 32,
+        "numerator": 4,
+        "status": "DEFINED",
+        "value": 0.125,
+        "wilson_95": [
+          0.04970134387480073,
+          0.2806830548165022
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 32,
+        "numerator": 28,
+        "status": "DEFINED",
+        "value": 0.875,
+        "wilson_95": [
+          0.7193169451834978,
+          0.9502986561251991
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 28,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          1.3877787807814457e-17,
+          0.12064330476584563
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 30,
+        "numerator": 28,
+        "status": "DEFINED",
+        "value": 0.9333333333333333,
+        "wilson_95": [
+          0.7867654163738308,
+          0.9815229762087295
+        ]
+      },
+      "counts": {
+        "abstained": 4,
+        "accepted": 28,
+        "answer_unknown": 2,
+        "rejected": 0,
+        "specification_unknown": 2
+      },
+      "decision_coverage": {
+        "denominator": 32,
+        "numerator": 28,
+        "status": "DEFINED",
+        "value": 0.875,
+        "wilson_95": [
+          0.7193169451834978,
+          0.9502986561251991
+        ]
+      },
+      "n": 32,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 23338,
+        "latency_ms": 1098803,
+        "model_calls": 64,
+        "output_tokens": 15580,
+        "tokens": 38918
+      },
+      "specification_disagreement_rate": {
+        "denominator": 30,
+        "numerator": 2,
+        "status": "DEFINED",
+        "value": 0.06666666666666667,
+        "wilson_95": [
+          0.018477023791270378,
+          0.2132345836261692
+        ]
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 28,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          1.3877787807814457e-17,
+          0.12064330476584563
+        ]
+      }
+    },
+    "B3": {
+      "abstention_rate": {
+        "denominator": 32,
+        "numerator": 2,
+        "status": "DEFINED",
+        "value": 0.0625,
+        "wilson_95": [
+          0.017310567031640967,
+          0.2014712314415458
+        ]
+      },
+      "acceptance_coverage": {
+        "denominator": 32,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7985287685584542,
+          0.982689432968359
+        ]
+      },
+      "answer_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "answer_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "answer_selective_risk": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "common_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "common_error_miss_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "correct_specification_acceptance_rate": {
+        "denominator": 30,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.8864866068260312,
+          0.9999999999999999
+        ]
+      },
+      "counts": {
+        "abstained": 2,
+        "accepted": 30,
+        "answer_unknown": 2,
+        "rejected": 0,
+        "specification_unknown": 2
+      },
+      "decision_coverage": {
+        "denominator": 32,
+        "numerator": 30,
+        "status": "DEFINED",
+        "value": 0.9375,
+        "wilson_95": [
+          0.7985287685584542,
+          0.982689432968359
+        ]
+      },
+      "n": 32,
+      "resource_use": {
+        "cost_status": "N/A_PROVIDER_PRICING_NOT_FROZEN",
+        "cost_usd": null,
+        "input_tokens": 12632,
+        "latency_ms": 596865,
+        "model_calls": 32,
+        "output_tokens": 11438,
+        "tokens": 24070
+      },
+      "specification_disagreement_rate": {
+        "denominator": 0,
+        "numerator": null,
+        "status": "N/A_NOT_RECORDED",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_detection_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_error_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "status": "N/A_ZERO_DENOMINATOR",
+        "value": null,
+        "wilson_95": null
+      },
+      "specification_false_rejection_rate": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      },
+      "specification_selective_risk": {
+        "denominator": 30,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.11351339317396876
+        ]
+      }
+    }
+  }
+}

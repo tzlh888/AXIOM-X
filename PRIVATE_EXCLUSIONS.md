@@ -1,23 +1,13 @@
-# Deliberately excluded from public release
+# Public boundary and exclusions
 
-The following material is retained in a private local evidence backup but is not
-present in this repository's working tree, commit history, refs, or reflogs:
+This V5 candidate includes frozen controlled V3/V4 datasets, automatically generated reference specifications, saved local-model outputs, deterministic analyses, tests, source-aware V5 audit records and uncompleted review forms. These inclusions replace the old source-only release boundary. None is independent human Gold.
 
-- all historical V2 and V2.1 candidate Gold;
-- all Gold review packets, reviewer ledgers, completion receipts, and disagreement ledgers;
-- unpublished reference answers and Gold-derived specifications;
-- original or raw experiment datasets not explicitly cleared for redistribution;
-- `category_summary.csv` and `cluster_summary.csv`, pending confirmation of
-  copyright and redistribution rights;
-- raw model predictions, generated experiment outputs, and stored result bundles;
-- private author assessments, technical-verification records, and recordings;
-- credentials, environment files, API keys, tokens, and private machine paths;
-- utilities whose sole purpose is to build private datasets, Gold packets, or
-  private evidence manifests;
-- the historical aggregate-statistics script and regression test that require
-  the excluded CSV files;
-- prior publication-audit manifests that described the excluded Gold-bearing tree.
+Excluded from this candidate:
 
-`.gitignore` is defense in depth only. The release candidate was rebuilt as a new
-Git repository from an explicit allowlist, so excluded material was never
-committed to its history.
+- Complete original DMOI3 website snapshots, embedded site scripts/styles/branding, interactive assets and answer displays. Only attributed, licensed text-only statement and license-metadata derivatives are included. Original snapshot hashes are retained in provenance; original files remain unchanged locally.
+- Simulated technical/admissions scores, internal assessments and earlier score-bearing report packages. The public V5 execution report is an explicitly marked score-free derivative.
+- The old source-only release gate, old publication checksum file and obsolete allowlist contents. New file and hash lists describe this candidate.
+- Workspace paths, environment logs, build products, credentials, private conversations, recordings, caches, virtual environments, external corpus clones and original research Git history.
+- Historical private V1/V2 Gold, candidate reviewer ledgers, private aggregate CSVs and personal technical-assessment material. Their absence is not evidence that independent validation occurred.
+
+Only paths in [the candidate file list](PUBLIC_RELEASE_FILES.txt) belong to the proposed public tree. This statement describes the candidate directory, not all locally retained Git objects or backups. A future release must use a controlled file import and preserve local research history, with no force push or history rewrite.

@@ -1,0 +1,42 @@
+{
+  "schema": "axiom-x-external-literature-screening-v1",
+  "audit_date": "2026-11-03",
+  "scope": "Literature-level screening only; these datasets were not included in the 51,553-row full-file scan.",
+  "records": [
+    {
+      "dataset": "P-FOLIO",
+      "official_source": "https://huggingface.co/datasets/yale-nlp/P-FOLIO",
+      "license_finding": "Dataset card states MIT.",
+      "annotation_origin": "Human-written proof chains over human-written FOLIO stories.",
+      "decision": "EXCLUDED",
+      "reasons": [
+        "target is proof-chain and inference evaluation, not finite-domain assignment counting",
+        "inherits FOLIO open-domain predicate semantics",
+        "proof annotations cannot be losslessly mapped to the current AXIOM-X DSL"
+      ]
+    },
+    {
+      "dataset": "LogicNLI",
+      "official_source": "https://github.com/omnilabNLP/LogicNLI",
+      "license_finding": "No license stated in the official repository or dataset card; redistribution terms are unresolved.",
+      "annotation_origin": "Semi-synthetic NLI generated from FOL rules with template language and human revision.",
+      "decision": "EXCLUDED",
+      "reasons": [
+        "target is NLI classification rather than count_solutions",
+        "semi-synthetic open-domain FOL is not an external natural finite-domain counting distribution",
+        "license is not explicit"
+      ]
+    },
+    {
+      "dataset": "ProofWriter",
+      "official_source": "https://aclanthology.org/2021.findings-acl.317/",
+      "license_finding": "Not verified because semantic incompatibility was already decisive; no data were redistributed.",
+      "annotation_origin": "Synthetic rulebases, implications, proofs and abductive statements.",
+      "decision": "EXCLUDED",
+      "reasons": [
+        "target is deductive proof/entailment rather than finite assignment counting",
+        "synthetic rule language does not provide compatible AXIOM-X finite-domain reference specifications"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "category": "family_01",
+    "group_id": "development",
+    "problem_id": "CTRL-D-01-1",
+    "problem_text": "Variables ad1, bd1, cd1 each range over integers -2 through 3. All variables are distinct. Their sum is exactly 3. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "family_02",
+    "group_id": "development",
+    "problem_id": "CTRL-D-02-1",
+    "problem_text": "Variables ad1, bd1, cd1 each range over integers 0 through 4. All variables are distinct. How many assignments are possible?"
+  },
+  {
+    "category": "family_03",
+    "group_id": "development",
+    "problem_id": "CTRL-D-03-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers -2 through 3. Require ad1 < bd1. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_04",
+    "group_id": "development",
+    "problem_id": "CTRL-D-04-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers -2 through 3. Require ad1 <= bd1. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_05",
+    "group_id": "development",
+    "problem_id": "CTRL-D-05-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers -2 through 4. Require ad1 < bd1, and ad1 is nonzero. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_06",
+    "group_id": "development",
+    "problem_id": "CTRL-D-06-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers 0 through 5. Their sum is at least 3 and at most 7. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "family_07",
+    "group_id": "development",
+    "problem_id": "CTRL-D-07-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers -1 through 5. Their sum is at most 4. How many assignments are possible?"
+  },
+  {
+    "category": "family_08",
+    "group_id": "development",
+    "problem_id": "CTRL-D-08-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers -2 through 4. Require bd1 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "family_09",
+    "group_id": "development",
+    "problem_id": "CTRL-D-09-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers -2 through 3. Require bd1 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "family_10",
+    "group_id": "development",
+    "problem_id": "CTRL-D-10-1",
+    "problem_text": "Variable zd1 ranges over integers -3 through 4 and zd1 is nonzero. How many values are possible?"
+  },
+  {
+    "category": "family_11",
+    "group_id": "development",
+    "problem_id": "CTRL-D-11-1",
+    "problem_text": "Variables q0d1, q1d1, q2d1, q3d1, q4d1 are each either 0 or 1. Exactly 2 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_12",
+    "group_id": "development",
+    "problem_id": "CTRL-D-12-1",
+    "problem_text": "Variables q0d1, q1d1, q2d1, q3d1, q4d1 are each either 0 or 1. At least 3 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_13",
+    "group_id": "development",
+    "problem_id": "CTRL-D-13-1",
+    "problem_text": "Variables q0d1, q1d1, q2d1, q3d1, q4d1 are each either 0 or 1. At most 2 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_14",
+    "group_id": "development",
+    "problem_id": "CTRL-D-14-1",
+    "problem_text": "Digits d0d1, d1d1, d2d1 each range from 0 through 9 and form a three-digit base-10 number in that order. d0d1 is nonzero. All variables are distinct. The number has remainder 1 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "family_15",
+    "group_id": "development",
+    "problem_id": "CTRL-D-15-1",
+    "problem_text": "Variables ad1 and bd1 each range over integers 0 through 6. Variable ad1 must not equal 2, and ad1 + bd1 must equal 6. How many ordered assignments satisfy both conditions?"
+  },
+  {
+    "category": "family_16",
+    "group_id": "development",
+    "problem_id": "CTRL-D-16-1",
+    "problem_text": "Variables ad1 and bd1 each take values from {0, 2, 5}. Require ad1 < bd1. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_01",
+    "group_id": "development",
+    "problem_id": "CTRL-D-01-2",
+    "problem_text": "Variables ad2, bd2, cd2 each range over integers -1 through 4. All variables are distinct. Their sum is exactly 6. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "family_02",
+    "group_id": "development",
+    "problem_id": "CTRL-D-02-2",
+    "problem_text": "Variables ad2, bd2, cd2 each range over integers 0 through 5. All variables are distinct. How many assignments are possible?"
+  },
+  {
+    "category": "family_03",
+    "group_id": "development",
+    "problem_id": "CTRL-D-03-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers -1 through 4. Require ad2 < bd2. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_04",
+    "group_id": "development",
+    "problem_id": "CTRL-D-04-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers -1 through 4. Require ad2 <= bd2. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_05",
+    "group_id": "development",
+    "problem_id": "CTRL-D-05-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers -2 through 5. Require ad2 < bd2, and ad2 is nonzero. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_06",
+    "group_id": "development",
+    "problem_id": "CTRL-D-06-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers 0 through 6. Their sum is at least 4 and at most 8. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "family_07",
+    "group_id": "development",
+    "problem_id": "CTRL-D-07-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers -1 through 6. Their sum is at most 5. How many assignments are possible?"
+  },
+  {
+    "category": "family_08",
+    "group_id": "development",
+    "problem_id": "CTRL-D-08-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers -2 through 5. Require bd2 = 3. How many assignments are possible?"
+  },
+  {
+    "category": "family_09",
+    "group_id": "development",
+    "problem_id": "CTRL-D-09-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers -2 through 4. Require bd2 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "family_10",
+    "group_id": "development",
+    "problem_id": "CTRL-D-10-2",
+    "problem_text": "Variable zd2 ranges over integers -3 through 5 and zd2 is nonzero. How many values are possible?"
+  },
+  {
+    "category": "family_11",
+    "group_id": "development",
+    "problem_id": "CTRL-D-11-2",
+    "problem_text": "Variables q0d2, q1d2, q2d2, q3d2, q4d2 are each either 0 or 1. Exactly 3 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_12",
+    "group_id": "development",
+    "problem_id": "CTRL-D-12-2",
+    "problem_text": "Variables q0d2, q1d2, q2d2, q3d2, q4d2 are each either 0 or 1. At least 3 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_13",
+    "group_id": "development",
+    "problem_id": "CTRL-D-13-2",
+    "problem_text": "Variables q0d2, q1d2, q2d2, q3d2, q4d2 are each either 0 or 1. At most 3 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_14",
+    "group_id": "development",
+    "problem_id": "CTRL-D-14-2",
+    "problem_text": "Digits d0d2, d1d2, d2d2 each range from 0 through 9 and form a three-digit base-10 number in that order. d0d2 is nonzero. All variables are distinct. The number has remainder 2 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "family_15",
+    "group_id": "development",
+    "problem_id": "CTRL-D-15-2",
+    "problem_text": "Variables ad2 and bd2 each range over integers 0 through 7. Variable ad2 must not equal 3, and ad2 + bd2 must equal 7. How many ordered assignments satisfy both conditions?"
+  },
+  {
+    "category": "family_16",
+    "group_id": "development",
+    "problem_id": "CTRL-D-16-2",
+    "problem_text": "Variables ad2 and bd2 each take values from {0, 3, 6}. Require ad2 < bd2. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_01",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-01-3",
+    "problem_text": "Variables ac3, bc3, cc3 each range over integers 0 through 5. All variables are distinct. Their sum is exactly 9. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "family_02",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-02-3",
+    "problem_text": "Variables ac3, bc3, cc3 each range over integers 0 through 6. All variables are distinct. How many assignments are possible?"
+  },
+  {
+    "category": "family_03",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-03-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers 0 through 5. Require ac3 < bc3. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_04",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-04-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers 0 through 5. Require ac3 <= bc3. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_05",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-05-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers -2 through 6. Require ac3 < bc3, and ac3 is nonzero. How many ordered assignments are possible?"
+  },
+  {
+    "category": "family_06",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-06-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers 0 through 7. Their sum is at least 5 and at most 9. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "family_07",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-07-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers -1 through 7. Their sum is at most 6. How many assignments are possible?"
+  },
+  {
+    "category": "family_08",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-08-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers -2 through 6. Require bc3 = 4. How many assignments are possible?"
+  },
+  {
+    "category": "family_09",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-09-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers -2 through 5. Require bc3 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "family_10",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-10-3",
+    "problem_text": "Variable zc3 ranges over integers -3 through 6 and zc3 is nonzero. How many values are possible?"
+  },
+  {
+    "category": "family_11",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-11-3",
+    "problem_text": "Variables q0c3, q1c3, q2c3, q3c3, q4c3 are each either 0 or 1. Exactly 4 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_12",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-12-3",
+    "problem_text": "Variables q0c3, q1c3, q2c3, q3c3, q4c3 are each either 0 or 1. At least 3 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_13",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-13-3",
+    "problem_text": "Variables q0c3, q1c3, q2c3, q3c3, q4c3 are each either 0 or 1. At most 4 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "family_14",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-14-3",
+    "problem_text": "Digits d0c3, d1c3, d2c3 each range from 0 through 9 and form a three-digit base-10 number in that order. d0c3 is nonzero. All variables are distinct. The number has remainder 3 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "family_15",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-15-3",
+    "problem_text": "Variables ac3 and bc3 each range over integers 0 through 8. Variable ac3 must not equal 4, and ac3 + bc3 must equal 8. How many ordered assignments satisfy both conditions?"
+  },
+  {
+    "category": "family_16",
+    "group_id": "controlled_confirmation",
+    "problem_id": "CTRL-C-16-3",
+    "problem_text": "Variables ac3 and bc3 each take values from {0, 4, 7}. Require ac3 < bc3. How many ordered assignments are possible?"
+  }
+]

@@ -1,39 +1,30 @@
-# Public reproduction
+# Installation and deterministic reproduction
 
-## Supported environment
-
-- Python 3.11 or newer (CI uses Python 3.12)
-- No API key
-- No private Gold, review packet, raw prediction, or recording
-
-From a fresh clone:
+Use Python 3.11 or newer. The candidate was prepared for a fresh local environment; recorded results are in the release-candidate verification report supplied for human approval. No API key, model weights or model call is needed for these commands.
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements-extension.txt
-python -m pip install --no-deps .
-pytest -q
+.venv/bin/python -m pip install --only-binary=:all: --require-hashes -r requirements-lock.txt
+.venv/bin/python -m pip install --no-build-isolation --no-deps .
+.venv/bin/python release_verify.py
+```
+
+The lock includes the reviewed build backend and test dependencies as well as Z3. Its wheel hashes were checked against official PyPI metadata. Other supported operating systems must still pass their own installation/verification; a macOS run does not establish Linux or Windows success. No dependencies are vendored in the candidate.
+
+`release_verify.py` checks `SHA256SUMS`, all three research verification commands and the unchanged existing pytest suite. Individually:
+
+```bash
+python -m research_v3.controlled_development verify
+python -m research_v4.v4_experiment verify
+python -m research_v5.prepare_evidence verify
+python -m pytest -q -p no:cacheprovider
 python -m axiom_x.demo
 ```
 
-## What this reproduces
+Run from the checkout root, since research namespace modules and frozen data are source-tree artifacts; package installation installs the `axiom_x` runtime and CLI. The full source distribution is needed for research verification. A runtime-only wheel is not the evidence release.
 
-- deterministic unit and integration tests for the bounded DSL;
-- Python/Z3 finite-solver agreement on synthetic fixtures;
-- Gold-isolation and frozen-payload controls using temporary test fixtures;
-- a deterministic synthetic demonstration.
+V3/V4 verification reuses saved outputs, regenerates deterministic data and analyses and compares hashes. It does not regenerate model outputs. V5 verification reads the explicitly labelled `binom_excerpt.html` fixture and the new public-derivative `MANIFEST.json`. The original initial V5 manifest is preserved as `HISTORICAL_MANIFEST.json` for provenance; its excluded webpage hashes cannot be verified solely from this public tree.
 
-## What this cannot publicly reproduce
+The text-only fixture contains exactly the 13 original recorded normalized exercise statements, without scripts, styles, branding, answers or interactive components. Its extraction matches the existing candidate screen byte-for-byte at the statement level. This does not prove original website-byte identity, independent human meaning or independent reference Gold. Public audit results remain internal reproducibility evidence.
 
-- historical V2 candidate-Gold or V2.1 candidate-Gold evaluation;
-- Gold review-packet construction or private reviewer evidence;
-- raw model predictions or experiments based on non-public data;
-- a completed natural LLM experiment;
-- independently validated Gold or a pristine held-out study.
-- historical aggregate-statistics recomputation, because the two source CSV
-  tables remain private until their redistribution rights are confirmed.
-
-These limits are intentional. Passing public tests is software evidence, not a
-claim of real-model validation.
+Do not run `freeze`, `run`, `run-models`, `prepare`, prediction-provider commands or official Held-out procedures to reproduce this release. Generation is a separate gated research activity and is not part of the verification path.

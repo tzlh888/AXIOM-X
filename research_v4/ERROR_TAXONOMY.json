@@ -1,0 +1,19 @@
+{
+  "schema": "axiom-x-v4-error-taxonomy-v1",
+  "status": "FROZEN_BEFORE_CHALLENGE_GENERATION",
+  "mechanisms": [
+    {"id": "incorrect_numerical_bounds", "label": "ERROR", "transformation": "expand an explicit finite domain upper bound", "eligibility": "candidate and reference must have a nonempty symmetric difference", "expected_axiom_x": "REJECT"},
+    {"id": "missing_constraint", "label": "ERROR", "transformation": "remove one required constraint", "eligibility": "removed constraint must change the solution set", "expected_axiom_x": "REJECT"},
+    {"id": "added_constraint", "label": "ERROR", "transformation": "add an unstated exclusion", "eligibility": "added constraint must remove at least one valid assignment", "expected_axiom_x": "REJECT"},
+    {"id": "incorrect_logical_operator", "label": "ERROR", "transformation": "replace strict less-than by less-than-or-equal", "eligibility": "equality assignments must be reachable", "expected_axiom_x": "REJECT"},
+    {"id": "incorrect_negation", "label": "ERROR", "transformation": "replace nonzero by equality to zero", "eligibility": "zero and nonzero values must both occur in the domain", "expected_axiom_x": "REJECT"},
+    {"id": "incorrect_equality", "label": "ERROR", "transformation": "replace equality by inequality", "eligibility": "the required value must be inside the domain", "expected_axiom_x": "REJECT"},
+    {"id": "variable_mapping_error", "label": "ERROR", "transformation": "attach an equality constraint to the wrong named variable", "eligibility": "exact-name solution sets must differ", "expected_axiom_x": "REJECT"},
+    {"id": "cardinality_mistake", "label": "ERROR", "transformation": "increase an exact binary cardinality by one", "eligibility": "both cardinalities must be feasible", "expected_axiom_x": "REJECT"},
+    {"id": "modulo_remainder_error", "label": "ERROR", "transformation": "change the required modular remainder", "eligibility": "both remainder classes must have solutions", "expected_axiom_x": "REJECT"},
+    {"id": "correct_specification", "label": "CORRECT", "transformation": "none", "eligibility": "candidate equals the formal-first reference", "expected_axiom_x": "ACCEPT"},
+    {"id": "unsupported_grammar", "label": "CORRECT", "transformation": "none; explicit non-contiguous domain is outside the frozen text grammar", "eligibility": "formal solver supports the semantics but text parser must return UNSUPPORTED", "expected_axiom_x": "ABSTAIN"},
+    {"id": "ambiguous_text", "label": "UNRESOLVED", "transformation": "none; deliberately ambiguous cardinality wording", "eligibility": "at least two readings are defensible and parser must return UNSUPPORTED", "expected_axiom_x": "ABSTAIN"}
+  ],
+  "rule": "No row enters the primary challenge unless its predeclared label and expected parser boundary are verified without consulting AXIOM-X decisions. ERROR rows require a solver-proven symmetric difference. UNRESOLVED rows are excluded from correctness denominators."
+}

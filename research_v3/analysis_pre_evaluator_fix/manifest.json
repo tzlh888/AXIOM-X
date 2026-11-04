@@ -1,0 +1,10 @@
+{
+  "files": {
+    "failure_records.json": "5a5a0c5377d52288aaffbaa507f23657555b374029417b98601e84e455797f89",
+    "metrics.json": "046db77b17ebe03bc7bf6a72dcbb1b5bd2ac97a080b159ead63170a562607aa5",
+    "paired.csv": "552ac72ec0af460e7513e8861de92feb3601de0cd08a7967fd509a8dad92ae12",
+    "split_metrics.json": "cabff27fca9329192d1cca531265b9e728e420d36f4f182f143995d8005331f9",
+    "summary.json": "fa133f306f14e69cbea4c93fe6d59c99856ad937e0f52c5a61f48cf6a7b09d88"
+  },
+  "schema": "axiom-x-controlled-analysis-manifest-v1"
+}

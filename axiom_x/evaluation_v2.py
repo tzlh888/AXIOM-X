@@ -9,7 +9,7 @@ from itertools import combinations
 from pathlib import Path
 from typing import Any
 
-from .solver import compare_specifications
+from .solver import compare_specifications_by_name
 from .spec import FormalSpecification
 
 
@@ -59,13 +59,10 @@ def _label(prediction: dict[str, Any], gold: dict[str, Any]) -> dict[str, Any]:
     else:
         primary = FormalSpecification.from_dict(prediction["primary"]["specification"])
         reference = FormalSpecification.from_dict(gold["specification"])
-        if primary.variable_names == reference.variable_names and tuple(v.domain for v in primary.variables) != tuple(v.domain for v in reference.variables):
-            specification_label = "ERROR"
-        else:
-            comparison = compare_specifications(primary, reference)
-            specification_label = {
-                "EQUIVALENT": "CORRECT", "DIFFERENT": "ERROR", "INCONCLUSIVE": "UNKNOWN"
-            }[comparison.status]
+        comparison = compare_specifications_by_name(primary, reference)
+        specification_label = {
+            "EQUIVALENT": "CORRECT", "DIFFERENT": "ERROR", "INCONCLUSIVE": "UNKNOWN"
+        }[comparison.status]
     answer = prediction.get("answer")
     answer_label = "UNKNOWN" if answer is None else ("CORRECT" if answer == gold["answer"] else "ERROR")
     return {"specification": specification_label, "answer": answer_label}

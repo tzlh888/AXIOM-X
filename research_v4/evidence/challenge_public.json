@@ -1,0 +1,578 @@
+[
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "problem_text": "Variables xin1 and yin1 each range over integers 0 through 4. Require xin1 < yin1. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "problem_text": "Variables xin2 and yin2 each range over integers 0 through 5. Require xin2 < yin2. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "problem_text": "Variables xin3 and yin3 each range over integers 0 through 6. Require xin3 < yin3. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "problem_text": "Variables xin4 and yin4 each range over integers 0 through 4. Require xin4 < yin4. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-05",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-05",
+    "problem_text": "Variables xin5 and yin5 each range over integers 0 through 5. Require xin5 < yin5. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-06",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-06",
+    "problem_text": "Variables xin6 and yin6 each range over integers 0 through 6. Require xin6 < yin6. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-07",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-07",
+    "problem_text": "Variables xin7 and yin7 each range over integers 0 through 4. Require xin7 < yin7. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_numerical_bounds",
+    "group_id": "V4-INCORRECT-NUMERICAL-BOUNDS-08",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-08",
+    "problem_text": "Variables xin8 and yin8 each range over integers 0 through 5. Require xin8 < yin8. How many ordered assignments are possible?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-01",
+    "problem_id": "V4-MISSING-CONSTRAINT-01",
+    "problem_text": "Variables xmi1, ymi1, zmi1 each range over integers 0 through 5. All variables are distinct. Their sum is exactly 6. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-02",
+    "problem_id": "V4-MISSING-CONSTRAINT-02",
+    "problem_text": "Variables xmi2, ymi2, zmi2 each range over integers 0 through 6. All variables are distinct. Their sum is exactly 7. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-03",
+    "problem_id": "V4-MISSING-CONSTRAINT-03",
+    "problem_text": "Variables xmi3, ymi3, zmi3 each range over integers 0 through 5. All variables are distinct. Their sum is exactly 8. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-04",
+    "problem_id": "V4-MISSING-CONSTRAINT-04",
+    "problem_text": "Variables xmi4, ymi4, zmi4 each range over integers 0 through 6. All variables are distinct. Their sum is exactly 6. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-05",
+    "problem_id": "V4-MISSING-CONSTRAINT-05",
+    "problem_text": "Variables xmi5, ymi5, zmi5 each range over integers 0 through 5. All variables are distinct. Their sum is exactly 7. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-06",
+    "problem_id": "V4-MISSING-CONSTRAINT-06",
+    "problem_text": "Variables xmi6, ymi6, zmi6 each range over integers 0 through 6. All variables are distinct. Their sum is exactly 8. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-07",
+    "problem_id": "V4-MISSING-CONSTRAINT-07",
+    "problem_text": "Variables xmi7, ymi7, zmi7 each range over integers 0 through 5. All variables are distinct. Their sum is exactly 6. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "missing_constraint",
+    "group_id": "V4-MISSING-CONSTRAINT-08",
+    "problem_id": "V4-MISSING-CONSTRAINT-08",
+    "problem_text": "Variables xmi8, ymi8, zmi8 each range over integers 0 through 6. All variables are distinct. Their sum is exactly 7. How many assignments satisfy all conditions?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-01",
+    "problem_id": "V4-ADDED-CONSTRAINT-01",
+    "problem_text": "Variables xad1 and yad1 each range over integers 0 through 5. Their sum is at most 6. How many assignments are possible?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-02",
+    "problem_id": "V4-ADDED-CONSTRAINT-02",
+    "problem_text": "Variables xad2 and yad2 each range over integers 0 through 6. Their sum is at most 7. How many assignments are possible?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-03",
+    "problem_id": "V4-ADDED-CONSTRAINT-03",
+    "problem_text": "Variables xad3 and yad3 each range over integers 0 through 7. Their sum is at most 8. How many assignments are possible?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-04",
+    "problem_id": "V4-ADDED-CONSTRAINT-04",
+    "problem_text": "Variables xad4 and yad4 each range over integers 0 through 5. Their sum is at most 6. How many assignments are possible?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-05",
+    "problem_id": "V4-ADDED-CONSTRAINT-05",
+    "problem_text": "Variables xad5 and yad5 each range over integers 0 through 6. Their sum is at most 7. How many assignments are possible?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-06",
+    "problem_id": "V4-ADDED-CONSTRAINT-06",
+    "problem_text": "Variables xad6 and yad6 each range over integers 0 through 7. Their sum is at most 8. How many assignments are possible?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-07",
+    "problem_id": "V4-ADDED-CONSTRAINT-07",
+    "problem_text": "Variables xad7 and yad7 each range over integers 0 through 5. Their sum is at most 6. How many assignments are possible?"
+  },
+  {
+    "category": "added_constraint",
+    "group_id": "V4-ADDED-CONSTRAINT-08",
+    "problem_id": "V4-ADDED-CONSTRAINT-08",
+    "problem_text": "Variables xad8 and yad8 each range over integers 0 through 6. Their sum is at most 7. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "problem_text": "Variables xin1 and yin1 each range over integers -1 through 4. Require xin1 < yin1. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "problem_text": "Variables xin2 and yin2 each range over integers -1 through 5. Require xin2 < yin2. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "problem_text": "Variables xin3 and yin3 each range over integers -1 through 6. Require xin3 < yin3. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "problem_text": "Variables xin4 and yin4 each range over integers -1 through 7. Require xin4 < yin4. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-05",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-05",
+    "problem_text": "Variables xin5 and yin5 each range over integers -1 through 4. Require xin5 < yin5. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-06",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-06",
+    "problem_text": "Variables xin6 and yin6 each range over integers -1 through 5. Require xin6 < yin6. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-07",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-07",
+    "problem_text": "Variables xin7 and yin7 each range over integers -1 through 6. Require xin7 < yin7. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_logical_operator",
+    "group_id": "V4-INCORRECT-LOGICAL-OPERATOR-08",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-08",
+    "problem_text": "Variables xin8 and yin8 each range over integers -1 through 7. Require xin8 < yin8. How many ordered assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-01",
+    "problem_id": "V4-INCORRECT-NEGATION-01",
+    "problem_text": "Variables xin1 and yin1 each range over integers -2 through 3. Require yin1 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-02",
+    "problem_id": "V4-INCORRECT-NEGATION-02",
+    "problem_text": "Variables xin2 and yin2 each range over integers -2 through 4. Require yin2 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-03",
+    "problem_id": "V4-INCORRECT-NEGATION-03",
+    "problem_text": "Variables xin3 and yin3 each range over integers -2 through 5. Require yin3 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-04",
+    "problem_id": "V4-INCORRECT-NEGATION-04",
+    "problem_text": "Variables xin4 and yin4 each range over integers -2 through 6. Require yin4 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-05",
+    "problem_id": "V4-INCORRECT-NEGATION-05",
+    "problem_text": "Variables xin5 and yin5 each range over integers -2 through 3. Require yin5 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-06",
+    "problem_id": "V4-INCORRECT-NEGATION-06",
+    "problem_text": "Variables xin6 and yin6 each range over integers -2 through 4. Require yin6 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-07",
+    "problem_id": "V4-INCORRECT-NEGATION-07",
+    "problem_text": "Variables xin7 and yin7 each range over integers -2 through 5. Require yin7 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_negation",
+    "group_id": "V4-INCORRECT-NEGATION-08",
+    "problem_id": "V4-INCORRECT-NEGATION-08",
+    "problem_text": "Variables xin8 and yin8 each range over integers -2 through 6. Require yin8 to be nonzero. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-01",
+    "problem_id": "V4-INCORRECT-EQUALITY-01",
+    "problem_text": "Variables xin1 and yin1 each range over integers 0 through 5. Require yin1 = 1. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-02",
+    "problem_id": "V4-INCORRECT-EQUALITY-02",
+    "problem_text": "Variables xin2 and yin2 each range over integers 0 through 6. Require yin2 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-03",
+    "problem_id": "V4-INCORRECT-EQUALITY-03",
+    "problem_text": "Variables xin3 and yin3 each range over integers 0 through 7. Require yin3 = 3. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-04",
+    "problem_id": "V4-INCORRECT-EQUALITY-04",
+    "problem_text": "Variables xin4 and yin4 each range over integers 0 through 5. Require yin4 = 1. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-05",
+    "problem_id": "V4-INCORRECT-EQUALITY-05",
+    "problem_text": "Variables xin5 and yin5 each range over integers 0 through 6. Require yin5 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-06",
+    "problem_id": "V4-INCORRECT-EQUALITY-06",
+    "problem_text": "Variables xin6 and yin6 each range over integers 0 through 7. Require yin6 = 3. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-07",
+    "problem_id": "V4-INCORRECT-EQUALITY-07",
+    "problem_text": "Variables xin7 and yin7 each range over integers 0 through 5. Require yin7 = 1. How many assignments are possible?"
+  },
+  {
+    "category": "incorrect_equality",
+    "group_id": "V4-INCORRECT-EQUALITY-08",
+    "problem_id": "V4-INCORRECT-EQUALITY-08",
+    "problem_text": "Variables xin8 and yin8 each range over integers 0 through 6. Require yin8 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-01",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-01",
+    "problem_text": "Variables xva1 and yva1 each range over integers 0 through 4. Require yva1 = 1. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-02",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-02",
+    "problem_text": "Variables xva2 and yva2 each range over integers 0 through 5. Require yva2 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-03",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-03",
+    "problem_text": "Variables xva3 and yva3 each range over integers 0 through 6. Require yva3 = 1. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-04",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-04",
+    "problem_text": "Variables xva4 and yva4 each range over integers 0 through 7. Require yva4 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-05",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-05",
+    "problem_text": "Variables xva5 and yva5 each range over integers 0 through 4. Require yva5 = 1. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-06",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-06",
+    "problem_text": "Variables xva6 and yva6 each range over integers 0 through 5. Require yva6 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-07",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-07",
+    "problem_text": "Variables xva7 and yva7 each range over integers 0 through 6. Require yva7 = 1. How many assignments are possible?"
+  },
+  {
+    "category": "variable_mapping_error",
+    "group_id": "V4-VARIABLE-MAPPING-ERROR-08",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-08",
+    "problem_text": "Variables xva8 and yva8 each range over integers 0 through 7. Require yva8 = 2. How many assignments are possible?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-01",
+    "problem_id": "V4-CARDINALITY-MISTAKE-01",
+    "problem_text": "Variables b0ca1, b1ca1, b2ca1, b3ca1, b4ca1 are each either 0 or 1. Exactly 1 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-02",
+    "problem_id": "V4-CARDINALITY-MISTAKE-02",
+    "problem_text": "Variables b0ca2, b1ca2, b2ca2, b3ca2, b4ca2 are each either 0 or 1. Exactly 2 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-03",
+    "problem_id": "V4-CARDINALITY-MISTAKE-03",
+    "problem_text": "Variables b0ca3, b1ca3, b2ca3, b3ca3, b4ca3 are each either 0 or 1. Exactly 3 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-04",
+    "problem_id": "V4-CARDINALITY-MISTAKE-04",
+    "problem_text": "Variables b0ca4, b1ca4, b2ca4, b3ca4, b4ca4 are each either 0 or 1. Exactly 1 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-05",
+    "problem_id": "V4-CARDINALITY-MISTAKE-05",
+    "problem_text": "Variables b0ca5, b1ca5, b2ca5, b3ca5, b4ca5 are each either 0 or 1. Exactly 2 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-06",
+    "problem_id": "V4-CARDINALITY-MISTAKE-06",
+    "problem_text": "Variables b0ca6, b1ca6, b2ca6, b3ca6, b4ca6 are each either 0 or 1. Exactly 3 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-07",
+    "problem_id": "V4-CARDINALITY-MISTAKE-07",
+    "problem_text": "Variables b0ca7, b1ca7, b2ca7, b3ca7, b4ca7 are each either 0 or 1. Exactly 1 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "cardinality_mistake",
+    "group_id": "V4-CARDINALITY-MISTAKE-08",
+    "problem_id": "V4-CARDINALITY-MISTAKE-08",
+    "problem_text": "Variables b0ca8, b1ca8, b2ca8, b3ca8, b4ca8 are each either 0 or 1. Exactly 2 of them equal 1. How many assignments satisfy this?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-01",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-01",
+    "problem_text": "Digits d0mo1, d1mo1, d2mo1 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo1 is nonzero. All variables are distinct. The number has remainder 0 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-02",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-02",
+    "problem_text": "Digits d0mo2, d1mo2, d2mo2 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo2 is nonzero. All variables are distinct. The number has remainder 1 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-03",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-03",
+    "problem_text": "Digits d0mo3, d1mo3, d2mo3 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo3 is nonzero. All variables are distinct. The number has remainder 2 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-04",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-04",
+    "problem_text": "Digits d0mo4, d1mo4, d2mo4 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo4 is nonzero. All variables are distinct. The number has remainder 3 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-05",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-05",
+    "problem_text": "Digits d0mo5, d1mo5, d2mo5 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo5 is nonzero. All variables are distinct. The number has remainder 0 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-06",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-06",
+    "problem_text": "Digits d0mo6, d1mo6, d2mo6 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo6 is nonzero. All variables are distinct. The number has remainder 1 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-07",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-07",
+    "problem_text": "Digits d0mo7, d1mo7, d2mo7 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo7 is nonzero. All variables are distinct. The number has remainder 2 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "modulo_remainder_error",
+    "group_id": "V4-MODULO-REMAINDER-ERROR-08",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-08",
+    "problem_text": "Digits d0mo8, d1mo8, d2mo8 each range from 0 through 9 and form a three-digit base-10 number in that order. d0mo8 is nonzero. All variables are distinct. The number has remainder 3 modulo 4. How many such numbers exist?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-01",
+    "problem_id": "V4-CORRECT-SPECIFICATION-01",
+    "problem_text": "Variables xco1 and yco1 each range over integers -1 through 5. Their sum is at least 2 and at most 6. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-02",
+    "problem_id": "V4-CORRECT-SPECIFICATION-02",
+    "problem_text": "Variables xco2 and yco2 each range over integers -1 through 6. Their sum is at least 3 and at most 7. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-03",
+    "problem_id": "V4-CORRECT-SPECIFICATION-03",
+    "problem_text": "Variables xco3 and yco3 each range over integers -1 through 7. Their sum is at least 2 and at most 6. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-04",
+    "problem_id": "V4-CORRECT-SPECIFICATION-04",
+    "problem_text": "Variables xco4 and yco4 each range over integers -1 through 5. Their sum is at least 3 and at most 7. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-05",
+    "problem_id": "V4-CORRECT-SPECIFICATION-05",
+    "problem_text": "Variables xco5 and yco5 each range over integers -1 through 6. Their sum is at least 2 and at most 6. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-06",
+    "problem_id": "V4-CORRECT-SPECIFICATION-06",
+    "problem_text": "Variables xco6 and yco6 each range over integers -1 through 7. Their sum is at least 3 and at most 7. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-07",
+    "problem_id": "V4-CORRECT-SPECIFICATION-07",
+    "problem_text": "Variables xco7 and yco7 each range over integers -1 through 5. Their sum is at least 2 and at most 6. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "correct_specification",
+    "group_id": "V4-CORRECT-SPECIFICATION-08",
+    "problem_id": "V4-CORRECT-SPECIFICATION-08",
+    "problem_text": "Variables xco8 and yco8 each range over integers -1 through 6. Their sum is at least 3 and at most 7. How many ordered assignments satisfy both bounds?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-01",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-01",
+    "problem_text": "Variables xun1 and yun1 each take values from {0, 2, 7}. Require xun1 < yun1. How many ordered assignments are possible?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-02",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-02",
+    "problem_text": "Variables xun2 and yun2 each take values from {0, 3, 8}. Require xun2 < yun2. How many ordered assignments are possible?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-03",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-03",
+    "problem_text": "Variables xun3 and yun3 each take values from {0, 4, 9}. Require xun3 < yun3. How many ordered assignments are possible?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-04",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-04",
+    "problem_text": "Variables xun4 and yun4 each take values from {0, 5, 10}. Require xun4 < yun4. How many ordered assignments are possible?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-05",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-05",
+    "problem_text": "Variables xun5 and yun5 each take values from {0, 6, 11}. Require xun5 < yun5. How many ordered assignments are possible?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-06",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-06",
+    "problem_text": "Variables xun6 and yun6 each take values from {0, 7, 12}. Require xun6 < yun6. How many ordered assignments are possible?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-07",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-07",
+    "problem_text": "Variables xun7 and yun7 each take values from {0, 8, 13}. Require xun7 < yun7. How many ordered assignments are possible?"
+  },
+  {
+    "category": "unsupported_grammar",
+    "group_id": "V4-UNSUPPORTED-GRAMMAR-08",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-08",
+    "problem_text": "Variables xun8 and yun8 each take values from {0, 9, 14}. Require xun8 < yun8. How many ordered assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-01",
+    "problem_id": "V4-AMBIGUOUS-TEXT-01",
+    "problem_text": "Variables a0am1, a1am1, a2am1, a3am1 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-02",
+    "problem_id": "V4-AMBIGUOUS-TEXT-02",
+    "problem_text": "Variables a0am2, a1am2, a2am2, a3am2 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-03",
+    "problem_id": "V4-AMBIGUOUS-TEXT-03",
+    "problem_text": "Variables a0am3, a1am3, a2am3, a3am3 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-04",
+    "problem_id": "V4-AMBIGUOUS-TEXT-04",
+    "problem_text": "Variables a0am4, a1am4, a2am4, a3am4 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-05",
+    "problem_id": "V4-AMBIGUOUS-TEXT-05",
+    "problem_text": "Variables a0am5, a1am5, a2am5, a3am5 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-06",
+    "problem_id": "V4-AMBIGUOUS-TEXT-06",
+    "problem_text": "Variables a0am6, a1am6, a2am6, a3am6 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-07",
+    "problem_id": "V4-AMBIGUOUS-TEXT-07",
+    "problem_text": "Variables a0am7, a1am7, a2am7, a3am7 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  },
+  {
+    "category": "ambiguous_text",
+    "group_id": "V4-AMBIGUOUS-TEXT-08",
+    "problem_id": "V4-AMBIGUOUS-TEXT-08",
+    "problem_text": "Variables a0am8, a1am8, a2am8, a3am8 are binary. Exactly two of them are 1 or 0. How many assignments are possible?"
+  }
+]

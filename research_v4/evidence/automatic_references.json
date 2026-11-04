@@ -1,0 +1,5286 @@
+[
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin1",
+          "right": "yin1"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-01",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xin1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yin1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin2",
+          "right": "yin2"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-02",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 21,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin3",
+          "right": "yin3"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-03",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin4",
+          "right": "yin4"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-04",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xin4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yin4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin5",
+          "right": "yin5"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-05",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 21,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin6",
+          "right": "yin6"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-06",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin7",
+          "right": "yin7"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-07",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xin7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yin7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin8",
+          "right": "yin8"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NUMERICAL-BOUNDS-08",
+      "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 18,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi1",
+            "ymi1",
+            "zmi1"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 6,
+          "variables": [
+            "xmi1",
+            "ymi1",
+            "zmi1"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-01",
+      "problem_id": "V4-MISSING-CONSTRAINT-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xmi1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ymi1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "zmi1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 24,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi2",
+            "ymi2",
+            "zmi2"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 7,
+          "variables": [
+            "xmi2",
+            "ymi2",
+            "zmi2"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-02",
+      "problem_id": "V4-MISSING-CONSTRAINT-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xmi2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ymi2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "zmi2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 18,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi3",
+            "ymi3",
+            "zmi3"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 8,
+          "variables": [
+            "xmi3",
+            "ymi3",
+            "zmi3"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-03",
+      "problem_id": "V4-MISSING-CONSTRAINT-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xmi3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ymi3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "zmi3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 18,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi4",
+            "ymi4",
+            "zmi4"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 6,
+          "variables": [
+            "xmi4",
+            "ymi4",
+            "zmi4"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-04",
+      "problem_id": "V4-MISSING-CONSTRAINT-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xmi4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ymi4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "zmi4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 18,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi5",
+            "ymi5",
+            "zmi5"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 7,
+          "variables": [
+            "xmi5",
+            "ymi5",
+            "zmi5"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-05",
+      "problem_id": "V4-MISSING-CONSTRAINT-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xmi5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ymi5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "zmi5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 24,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi6",
+            "ymi6",
+            "zmi6"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 8,
+          "variables": [
+            "xmi6",
+            "ymi6",
+            "zmi6"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-06",
+      "problem_id": "V4-MISSING-CONSTRAINT-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xmi6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ymi6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "zmi6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 18,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi7",
+            "ymi7",
+            "zmi7"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 6,
+          "variables": [
+            "xmi7",
+            "ymi7",
+            "zmi7"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-07",
+      "problem_id": "V4-MISSING-CONSTRAINT-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xmi7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "ymi7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "zmi7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 24,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MISSING-CONSTRAINT-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "all_different",
+          "variables": [
+            "xmi8",
+            "ymi8",
+            "zmi8"
+          ]
+        },
+        {
+          "kind": "sum_equal",
+          "value": 7,
+          "variables": [
+            "xmi8",
+            "ymi8",
+            "zmi8"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MISSING-CONSTRAINT-08",
+      "problem_id": "V4-MISSING-CONSTRAINT-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xmi8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "ymi8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "zmi8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 26,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "xad1",
+            "yad1"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-01",
+      "problem_id": "V4-ADDED-CONSTRAINT-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xad1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yad1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 34,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "xad2",
+            "yad2"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-02",
+      "problem_id": "V4-ADDED-CONSTRAINT-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xad2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yad2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 43,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 8,
+          "variables": [
+            "xad3",
+            "yad3"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-03",
+      "problem_id": "V4-ADDED-CONSTRAINT-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xad3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yad3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 26,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "xad4",
+            "yad4"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-04",
+      "problem_id": "V4-ADDED-CONSTRAINT-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xad4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yad4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 34,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "xad5",
+            "yad5"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-05",
+      "problem_id": "V4-ADDED-CONSTRAINT-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xad5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yad5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 43,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 8,
+          "variables": [
+            "xad6",
+            "yad6"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-06",
+      "problem_id": "V4-ADDED-CONSTRAINT-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xad6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yad6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 26,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "xad7",
+            "yad7"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-07",
+      "problem_id": "V4-ADDED-CONSTRAINT-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xad7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yad7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 34,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-ADDED-CONSTRAINT-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "xad8",
+            "yad8"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-ADDED-CONSTRAINT-08",
+      "problem_id": "V4-ADDED-CONSTRAINT-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xad8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yad8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin1",
+          "right": "yin1"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-01",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xin1"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yin1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 21,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin2",
+          "right": "yin2"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-02",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin2"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 28,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin3",
+          "right": "yin3"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-03",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin3"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 36,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin4",
+          "right": "yin4"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-04",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xin4"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yin4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 15,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin5",
+          "right": "yin5"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-05",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xin5"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yin5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 21,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin6",
+          "right": "yin6"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-06",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin6"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 28,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin7",
+          "right": "yin7"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-07",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin7"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 36,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xin8",
+          "right": "yin8"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-LOGICAL-OPERATOR-08",
+      "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xin8"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yin8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 30,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin1"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-01",
+      "problem_id": "V4-INCORRECT-NEGATION-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "xin1"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "yin1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 42,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin2"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-02",
+      "problem_id": "V4-INCORRECT-NEGATION-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xin2"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yin2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 56,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin3"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-03",
+      "problem_id": "V4-INCORRECT-NEGATION-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin3"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 72,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin4"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-04",
+      "problem_id": "V4-INCORRECT-NEGATION-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin4"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 30,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin5"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-05",
+      "problem_id": "V4-INCORRECT-NEGATION-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "xin5"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3
+          ],
+          "name": "yin5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 42,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin6"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-06",
+      "problem_id": "V4-INCORRECT-NEGATION-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xin6"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yin6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 56,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin7"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-07",
+      "problem_id": "V4-INCORRECT-NEGATION-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin7"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 72,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-NEGATION-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "yin8"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-NEGATION-08",
+      "problem_id": "V4-INCORRECT-NEGATION-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin8"
+        },
+        {
+          "domain": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 6,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "yin1"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-01",
+      "problem_id": "V4-INCORRECT-EQUALITY-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "yin2"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-02",
+      "problem_id": "V4-INCORRECT-EQUALITY-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 8,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 3,
+          "variable": "yin3"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-03",
+      "problem_id": "V4-INCORRECT-EQUALITY-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xin3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yin3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 6,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "yin4"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-04",
+      "problem_id": "V4-INCORRECT-EQUALITY-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "yin5"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-05",
+      "problem_id": "V4-INCORRECT-EQUALITY-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 8,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 3,
+          "variable": "yin6"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-06",
+      "problem_id": "V4-INCORRECT-EQUALITY-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xin6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yin6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 6,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "yin7"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-07",
+      "problem_id": "V4-INCORRECT-EQUALITY-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xin7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yin7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-INCORRECT-EQUALITY-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "yin8"
+        }
+      ],
+      "generation_id": "v4-reference-V4-INCORRECT-EQUALITY-08",
+      "problem_id": "V4-INCORRECT-EQUALITY-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xin8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yin8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 5,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "yva1"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-01",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xva1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yva1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 6,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "yva2"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-02",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xva2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yva2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "yva3"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-03",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xva3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yva3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 8,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "yva4"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-04",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xva4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yva4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 5,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "yva5"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-05",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "xva5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "name": "yva5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 6,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "yva6"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-06",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xva6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yva6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 7,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 1,
+          "variable": "yva7"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-07",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xva7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yva7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 8,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 2,
+          "variable": "yva8"
+        }
+      ],
+      "generation_id": "v4-reference-V4-VARIABLE-MAPPING-ERROR-08",
+      "problem_id": "V4-VARIABLE-MAPPING-ERROR-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xva8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yva8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 5,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 1,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca1",
+            "b1ca1",
+            "b2ca1",
+            "b3ca1",
+            "b4ca1"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-01",
+      "problem_id": "V4-CARDINALITY-MISTAKE-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca2",
+            "b1ca2",
+            "b2ca2",
+            "b3ca2",
+            "b4ca2"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-02",
+      "problem_id": "V4-CARDINALITY-MISTAKE-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca3",
+            "b1ca3",
+            "b2ca3",
+            "b3ca3",
+            "b4ca3"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-03",
+      "problem_id": "V4-CARDINALITY-MISTAKE-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 5,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 1,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca4",
+            "b1ca4",
+            "b2ca4",
+            "b3ca4",
+            "b4ca4"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-04",
+      "problem_id": "V4-CARDINALITY-MISTAKE-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca4"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca4"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca4"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca4"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca5",
+            "b1ca5",
+            "b2ca5",
+            "b3ca5",
+            "b4ca5"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-05",
+      "problem_id": "V4-CARDINALITY-MISTAKE-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca5"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca5"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca5"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca5"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca6",
+            "b1ca6",
+            "b2ca6",
+            "b3ca6",
+            "b4ca6"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-06",
+      "problem_id": "V4-CARDINALITY-MISTAKE-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca6"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca6"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca6"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca6"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 5,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 1,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca7",
+            "b1ca7",
+            "b2ca7",
+            "b3ca7",
+            "b4ca7"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-07",
+      "problem_id": "V4-CARDINALITY-MISTAKE-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca7"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca7"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca7"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca7"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 10,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-CARDINALITY-MISTAKE-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b0ca8",
+            "b1ca8",
+            "b2ca8",
+            "b3ca8",
+            "b4ca8"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CARDINALITY-MISTAKE-08",
+      "problem_id": "V4-CARDINALITY-MISTAKE-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b0ca8"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1ca8"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2ca8"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3ca8"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4ca8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 160,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo1"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo1",
+            "d1mo1",
+            "d2mo1"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 0,
+          "variables": [
+            "d0mo1",
+            "d1mo1",
+            "d2mo1"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-01",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo1"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 164,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo2"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo2",
+            "d1mo2",
+            "d2mo2"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 1,
+          "variables": [
+            "d0mo2",
+            "d1mo2",
+            "d2mo2"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-02",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo2"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 168,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo3"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo3",
+            "d1mo3",
+            "d2mo3"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 2,
+          "variables": [
+            "d0mo3",
+            "d1mo3",
+            "d2mo3"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-03",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo3"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 156,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo4"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo4",
+            "d1mo4",
+            "d2mo4"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 3,
+          "variables": [
+            "d0mo4",
+            "d1mo4",
+            "d2mo4"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-04",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo4"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 160,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo5"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo5",
+            "d1mo5",
+            "d2mo5"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 0,
+          "variables": [
+            "d0mo5",
+            "d1mo5",
+            "d2mo5"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-05",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo5"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 164,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo6"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo6",
+            "d1mo6",
+            "d2mo6"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 1,
+          "variables": [
+            "d0mo6",
+            "d1mo6",
+            "d2mo6"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-06",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo6"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 168,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo7"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo7",
+            "d1mo7",
+            "d2mo7"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 2,
+          "variables": [
+            "d0mo7",
+            "d1mo7",
+            "d2mo7"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-07",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo7"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 156,
+    "expected_label": "ERROR",
+    "human_review": false,
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "not_equal",
+          "value": 0,
+          "variable": "d0mo8"
+        },
+        {
+          "kind": "all_different",
+          "variables": [
+            "d0mo8",
+            "d1mo8",
+            "d2mo8"
+          ]
+        },
+        {
+          "base": 10,
+          "kind": "number_mod",
+          "modulus": 4,
+          "remainder": 3,
+          "variables": [
+            "d0mo8",
+            "d1mo8",
+            "d2mo8"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-MODULO-REMAINDER-ERROR-08",
+      "problem_id": "V4-MODULO-REMAINDER-ERROR-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d0mo8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d1mo8"
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "name": "d2mo8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 29,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 2,
+          "variables": [
+            "xco1",
+            "yco1"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "xco1",
+            "yco1"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-01",
+      "problem_id": "V4-CORRECT-SPECIFICATION-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xco1"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yco1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 34,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 3,
+          "variables": [
+            "xco2",
+            "yco2"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "xco2",
+            "yco2"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-02",
+      "problem_id": "V4-CORRECT-SPECIFICATION-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xco2"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yco2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 35,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 2,
+          "variables": [
+            "xco3",
+            "yco3"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "xco3",
+            "yco3"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-03",
+      "problem_id": "V4-CORRECT-SPECIFICATION-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xco3"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yco3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 28,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 3,
+          "variables": [
+            "xco4",
+            "yco4"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "xco4",
+            "yco4"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-04",
+      "problem_id": "V4-CORRECT-SPECIFICATION-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xco4"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yco4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 33,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 2,
+          "variables": [
+            "xco5",
+            "yco5"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "xco5",
+            "yco5"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-05",
+      "problem_id": "V4-CORRECT-SPECIFICATION-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xco5"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yco5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 38,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 3,
+          "variables": [
+            "xco6",
+            "yco6"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "xco6",
+            "yco6"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-06",
+      "problem_id": "V4-CORRECT-SPECIFICATION-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "xco6"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "name": "yco6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 29,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 2,
+          "variables": [
+            "xco7",
+            "yco7"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 6,
+          "variables": [
+            "xco7",
+            "yco7"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-07",
+      "problem_id": "V4-CORRECT-SPECIFICATION-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "xco7"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "name": "yco7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 34,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-CORRECT-SPECIFICATION-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "sum_at_least",
+          "value": 3,
+          "variables": [
+            "xco8",
+            "yco8"
+          ]
+        },
+        {
+          "kind": "sum_at_most",
+          "value": 7,
+          "variables": [
+            "xco8",
+            "yco8"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-CORRECT-SPECIFICATION-08",
+      "problem_id": "V4-CORRECT-SPECIFICATION-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "xco8"
+        },
+        {
+          "domain": [
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "name": "yco8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-01",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun1",
+          "right": "yun1"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-01",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            2,
+            7
+          ],
+          "name": "xun1"
+        },
+        {
+          "domain": [
+            0,
+            2,
+            7
+          ],
+          "name": "yun1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-02",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun2",
+          "right": "yun2"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-02",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            3,
+            8
+          ],
+          "name": "xun2"
+        },
+        {
+          "domain": [
+            0,
+            3,
+            8
+          ],
+          "name": "yun2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-03",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun3",
+          "right": "yun3"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-03",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            4,
+            9
+          ],
+          "name": "xun3"
+        },
+        {
+          "domain": [
+            0,
+            4,
+            9
+          ],
+          "name": "yun3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-04",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun4",
+          "right": "yun4"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-04",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            5,
+            10
+          ],
+          "name": "xun4"
+        },
+        {
+          "domain": [
+            0,
+            5,
+            10
+          ],
+          "name": "yun4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-05",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun5",
+          "right": "yun5"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-05",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            6,
+            11
+          ],
+          "name": "xun5"
+        },
+        {
+          "domain": [
+            0,
+            6,
+            11
+          ],
+          "name": "yun5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-06",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun6",
+          "right": "yun6"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-06",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            7,
+            12
+          ],
+          "name": "xun6"
+        },
+        {
+          "domain": [
+            0,
+            7,
+            12
+          ],
+          "name": "yun6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-07",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun7",
+          "right": "yun7"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-07",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            8,
+            13
+          ],
+          "name": "xun7"
+        },
+        {
+          "domain": [
+            0,
+            8,
+            13
+          ],
+          "name": "yun7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": 3,
+    "expected_label": "CORRECT",
+    "human_review": false,
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-08",
+    "reference_status": "AUTOMATIC_DUAL_SOLVER_VALIDATED",
+    "specification": {
+      "constraints": [
+        {
+          "kind": "less_than",
+          "left": "xun8",
+          "right": "yun8"
+        }
+      ],
+      "generation_id": "v4-reference-V4-UNSUPPORTED-GRAMMAR-08",
+      "problem_id": "V4-UNSUPPORTED-GRAMMAR-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            9,
+            14
+          ],
+          "name": "xun8"
+        },
+        {
+          "domain": [
+            0,
+            9,
+            14
+          ],
+          "name": "yun8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-01",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am1",
+            "a1am1",
+            "a2am1",
+            "a3am1"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-01",
+      "problem_id": "V4-AMBIGUOUS-TEXT-01",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am1"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-02",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am2",
+            "a1am2",
+            "a2am2",
+            "a3am2"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-02",
+      "problem_id": "V4-AMBIGUOUS-TEXT-02",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am2"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-03",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am3",
+            "a1am3",
+            "a2am3",
+            "a3am3"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-03",
+      "problem_id": "V4-AMBIGUOUS-TEXT-03",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am3"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-04",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am4",
+            "a1am4",
+            "a2am4",
+            "a3am4"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-04",
+      "problem_id": "V4-AMBIGUOUS-TEXT-04",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am4"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am4"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am4"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am4"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-05",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am5",
+            "a1am5",
+            "a2am5",
+            "a3am5"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-05",
+      "problem_id": "V4-AMBIGUOUS-TEXT-05",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am5"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am5"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am5"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am5"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-06",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am6",
+            "a1am6",
+            "a2am6",
+            "a3am6"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-06",
+      "problem_id": "V4-AMBIGUOUS-TEXT-06",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am6"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am6"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am6"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am6"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-07",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am7",
+            "a1am7",
+            "a2am7",
+            "a3am7"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-07",
+      "problem_id": "V4-AMBIGUOUS-TEXT-07",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am7"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am7"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am7"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am7"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  },
+  {
+    "answer": null,
+    "expected_label": "UNRESOLVED",
+    "human_review": false,
+    "problem_id": "V4-AMBIGUOUS-TEXT-08",
+    "reference_status": "UNRESOLVED",
+    "specification": {
+      "constraints": [
+        {
+          "count": 2,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "a0am8",
+            "a1am8",
+            "a2am8",
+            "a3am8"
+          ]
+        }
+      ],
+      "generation_id": "v4-reference-V4-AMBIGUOUS-TEXT-08",
+      "problem_id": "V4-AMBIGUOUS-TEXT-08",
+      "source": "v4-reference",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a0am8"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a1am8"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a2am8"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "a3am8"
+        }
+      ],
+      "verification_status": "VALIDATED"
+    }
+  }
+]

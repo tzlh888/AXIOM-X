@@ -1,0 +1,137 @@
+{
+  "axiom_x_abstention_rate": {
+    "denominator": 48,
+    "numerator": 5,
+    "status": "DEFINED",
+    "value": 0.10416666666666667,
+    "wilson_95": [
+      0.045321719041813105,
+      0.2216742169438633
+    ]
+  },
+  "axiom_x_acceptance_coverage": {
+    "denominator": 48,
+    "numerator": 39,
+    "status": "DEFINED",
+    "value": 0.8125,
+    "wilson_95": [
+      0.680601328507153,
+      0.8980860904515235
+    ]
+  },
+  "axiom_x_decision_coverage": {
+    "denominator": 48,
+    "numerator": 43,
+    "status": "DEFINED",
+    "value": 0.8958333333333334,
+    "wilson_95": [
+      0.7783257830561368,
+      0.9546782809581869
+    ]
+  },
+  "axiom_x_error_detection_rate": {
+    "denominator": 4,
+    "numerator": 4,
+    "status": "DEFINED",
+    "value": 1.0,
+    "wilson_95": [
+      0.5101091635454027,
+      1.0
+    ]
+  },
+  "axiom_x_false_rejection_rate": {
+    "denominator": 42,
+    "numerator": 0,
+    "status": "DEFINED",
+    "value": 0.0,
+    "wilson_95": [
+      0.0,
+      0.08379879086570391
+    ]
+  },
+  "axiom_x_specification_fcr": {
+    "denominator": 4,
+    "numerator": 0,
+    "status": "DEFINED",
+    "value": 0.0,
+    "wilson_95": [
+      0.0,
+      0.4898908364545973
+    ]
+  },
+  "baseline_specification_fcr": {
+    "denominator": 4,
+    "numerator": 4,
+    "status": "DEFINED",
+    "value": 1.0,
+    "wilson_95": [
+      0.5101091635454027,
+      1.0
+    ]
+  },
+  "claim_boundary": "Post-hoc mechanism evidence on the frozen auxiliary model path; not confirmation and not natural-distribution evidence.",
+  "error_rows": [
+    {
+      "axiom_x_decision": "REJECT",
+      "axiom_x_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+      "baseline_decision": "ACCEPT",
+      "case_id": "CTRL-D-10-1",
+      "specification_label": "ERROR",
+      "split": "development"
+    },
+    {
+      "axiom_x_decision": "ABSTAIN",
+      "axiom_x_reason": "SECONDARY_GENERATION_FAILED",
+      "baseline_decision": "ABSTAIN",
+      "case_id": "CTRL-D-14-1",
+      "specification_label": "UNKNOWN",
+      "split": "development"
+    },
+    {
+      "axiom_x_decision": "REJECT",
+      "axiom_x_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+      "baseline_decision": "ACCEPT",
+      "case_id": "CTRL-D-10-2",
+      "specification_label": "ERROR",
+      "split": "development"
+    },
+    {
+      "axiom_x_decision": "ABSTAIN",
+      "axiom_x_reason": "SECONDARY_GENERATION_FAILED",
+      "baseline_decision": "ABSTAIN",
+      "case_id": "CTRL-D-14-2",
+      "specification_label": "UNKNOWN",
+      "split": "development"
+    },
+    {
+      "axiom_x_decision": "REJECT",
+      "axiom_x_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+      "baseline_decision": "ACCEPT",
+      "case_id": "CTRL-C-10-3",
+      "specification_label": "ERROR",
+      "split": "controlled_confirmation"
+    },
+    {
+      "axiom_x_decision": "REJECT",
+      "axiom_x_reason": "PRIMARY_PUBLIC_TEXT_SET_DIFFERENCE",
+      "baseline_decision": "ACCEPT",
+      "case_id": "CTRL-C-14-3",
+      "specification_label": "ERROR",
+      "split": "controlled_confirmation"
+    }
+  ],
+  "model_outputs_changed": false,
+  "n": 48,
+  "paired_baseline_vs_axiom_x": {
+    "axiom_x_only_false_certification": 0,
+    "baseline_only_false_certification": 4,
+    "discordant": 4,
+    "mcnemar_exact_p": 0.125
+  },
+  "primary_estimand_replaced": false,
+  "schema": "axiom-x-posthoc-secondary-role-reversal-v1",
+  "secondary_generation_failures": 2,
+  "specification_error_opportunities": 4,
+  "status": "EXPLORATORY_NOT_PREREGISTERED",
+  "trigger": "The frozen primary path produced zero semantic error opportunities."
+}

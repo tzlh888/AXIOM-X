@@ -1,0 +1,25 @@
+{
+  "schema": "axiom-x-controlled-development-v1",
+  "status": "FROZEN_BEFORE_MODEL_CALLS",
+  "route": "B_CONTROLLED_LANGUAGE",
+  "frozen_on": "2026-11-03",
+  "row_count": 48,
+  "splits": {
+    "development": 32,
+    "controlled_confirmation": 16
+  },
+  "primary_model": "gpt-oss:20b",
+  "secondary_model": "deepseek-r1:14b",
+  "ollama_endpoint": "http://127.0.0.1:11434/api/generate",
+  "temperature": 0,
+  "seed": 20261103,
+  "max_output_tokens": 1200,
+  "retries": 0,
+  "paid_api": false,
+  "formal_reference_precedes_text": true,
+  "gold_type": "AUTOMATIC_REFERENCE_FROM_PREEXISTING_FORMAL_SPEC",
+  "confirmation_boundary": "The controlled-confirmation split is pre-frozen but is not natural-language or independent-human validation.",
+  "primary_estimand": "specification false-certification rate among model outputs with known controlled reference semantics",
+  "primary_comparison": "B0_PRIMARY_PLUS_Z3 versus B2_1_AXIOX_PUBLIC_TEXT_AUDIT",
+  "heldout_operation": "PROHIBITED"
+}

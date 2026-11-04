@@ -1,0 +1,22 @@
+{
+  "applicant_contribution": "Unconfirmed personal claims excluded; substantial AI assistance disclosed",
+  "derivatives": {
+    "research_v5/MANIFEST.json": "new public-derivative verification manifest; not historical preregistration",
+    "research_v5/extract_source.py": "only input fixture path changed; extraction logic unchanged",
+    "research_v5/reports/V5_EXECUTION_REPORT.md": "score-free public narrative with explicit excerpt/reproduction boundary",
+    "research_v5/sources/binom_excerpt.html": "13 licensed recorded exercise statements, no site assets",
+    "research_v5/sources/colophon_excerpt.html": "plain license attribution metadata"
+  },
+  "experimental_data_predictions_and_analyses": "PRESERVED_BYTE_FOR_BYTE",
+  "git_history": "No .git directory or original research ancestry imported; future controlled file import requires human approval",
+  "historical_research_commit": "4ba750d3291a3b142955ccc9354c9f8273a401df",
+  "historical_source_hashes": {
+    "research_v5/MANIFEST.json": "5b05acf218148ade2d4f4181d8d544218b1553855654e629e52d500d78620f46",
+    "research_v5/extract_source.py": "0f96f1fb223e7c3ffa2f94fa0c8a01ac47c1b17e7831bc789d4de81a0f72e9be",
+    "research_v5/reports/V5_EXECUTION_REPORT.md": "903f1ace913ec9f272145b058ca21a27492a3e4956d69edea12d58ade950b1ad",
+    "research_v5/sources/binom.html": "7bb4ad80def1ee90e2f06feeeb49ca8add1ca715ddbb5e5f87a3b95b5b4b52d2",
+    "research_v5/sources/colophon.html": "3bf48c2629a5ac34339c234c65de0d5af10dc8f47c2e9bb8eb60a3e4013695e8"
+  },
+  "prepared_on": "2026-11-04",
+  "schema": "axiom-v5-release-provenance-v1"
+}

@@ -1,0 +1,19 @@
+{
+  "challenge_rows": 96,
+  "correct_controls": 16,
+  "error_opportunities": 72,
+  "files": {
+    "automatic_references.json": "695e161d1d33f91a515d9c1d95571dd9b72f82f88d6f148ca40f81fc48b65115",
+    "challenge_candidates.json": "349a10f72767d3d145f0eaa8b39c09b69f7f4f0294f4c298a732bf0452b27cf2",
+    "challenge_public.json": "34916cbcb2b25a57ede1bb4d269c91884b2a517420cfd961bd3f8f40382c9678",
+    "eligibility_validation.json": "c19538663f45c6f4ebb8865f277e5795afa2009172b750ab71399076c1126996",
+    "natural_model_public.json": "c25ce3a7fd382656d30a966f98e9a454f7791529034d16ff1f1c89df78de4b7c"
+  },
+  "natural_model_tasks": 48,
+  "prompt_sha256": "2be19a815526cf140b5e0cee8bee278bfaee9b4c3a9c8e99a6421071b6376702",
+  "protocol_sha256": "6c16b0b21d2a2942eadfa1ba481339806e8842e83e363ac4baa34c76261c1c0d",
+  "schema": "axiom-x-v4-dataset-freeze-v1",
+  "status": "FROZEN",
+  "taxonomy_sha256": "b74f8c334ac01806fc0700b5bb1b841d890a5e358962b504a18936dcc94e1d8f",
+  "unresolved_controls": 8
+}

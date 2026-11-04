@@ -1,0 +1,655 @@
+{
+  "models": {
+    "deepseek-r1:14b": {
+      "invalid_outputs": 4,
+      "paired_accept_all_vs_axiom": {
+        "baseline_only_false_certification": 4,
+        "discordant": 4,
+        "mcnemar_exact_p": 0.125,
+        "tested_only_false_certification": 0
+      },
+      "strategies": {
+        "ACCEPT_ALL_VALID": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 44,
+            "status": "DEFINED",
+            "value": 0.9166666666666666,
+            "wilson_95": [
+              0.8044669820963272,
+              0.9671162431819081
+            ]
+          },
+          "correct_opportunities": 39,
+          "correct_specification_abstention_rate": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "counts": {
+            "abstained": 4,
+            "accepted": 44,
+            "rejected": 0
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 44,
+            "status": "DEFINED",
+            "value": 0.9166666666666666,
+            "wilson_95": [
+              0.8044669820963272,
+              0.9671162431819081
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 4,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "error_opportunities": 4,
+          "false_rejection_rate": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 43,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 0.09302325581395349,
+            "wilson_95": [
+              0.03677164063171276,
+              0.21602703641253587
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 4,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 1.0,
+            "wilson_95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "unresolved": 0
+        },
+        "AXIOM_X_B2_1": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 35,
+            "status": "DEFINED",
+            "value": 0.7291666666666666,
+            "wilson_95": [
+              0.5900303501775939,
+              0.8343404237254355
+            ]
+          },
+          "correct_opportunities": 39,
+          "correct_specification_abstention_rate": {
+            "denominator": 39,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 0.10256410256410256,
+            "wilson_95": [
+              0.04061331344668381,
+              0.23578854462856527
+            ]
+          },
+          "counts": {
+            "abstained": 9,
+            "accepted": 35,
+            "rejected": 4
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 39,
+            "status": "DEFINED",
+            "value": 0.8125,
+            "wilson_95": [
+              0.680601328507153,
+              0.8980860904515235
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 4,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 1.0,
+            "wilson_95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "error_opportunities": 4,
+          "false_rejection_rate": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 35,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              6.938893903907228e-18,
+              0.09890099232440402
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 4,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "unresolved": 0
+        },
+        "CHEAP_RULE_ABLATION": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 40,
+            "status": "DEFINED",
+            "value": 0.8333333333333334,
+            "wilson_95": [
+              0.7042217159874441,
+              0.9130448642351444
+            ]
+          },
+          "correct_opportunities": 39,
+          "correct_specification_abstention_rate": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "counts": {
+            "abstained": 4,
+            "accepted": 40,
+            "rejected": 4
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 44,
+            "status": "DEFINED",
+            "value": 0.9166666666666666,
+            "wilson_95": [
+              0.8044669820963272,
+              0.9671162431819081
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 4,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 1.0,
+            "wilson_95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "error_opportunities": 4,
+          "false_rejection_rate": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 4,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "unresolved": 0
+        },
+        "SOLVER_ONLY": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 44,
+            "status": "DEFINED",
+            "value": 0.9166666666666666,
+            "wilson_95": [
+              0.8044669820963272,
+              0.9671162431819081
+            ]
+          },
+          "correct_opportunities": 39,
+          "correct_specification_abstention_rate": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "counts": {
+            "abstained": 4,
+            "accepted": 44,
+            "rejected": 0
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 44,
+            "status": "DEFINED",
+            "value": 0.9166666666666666,
+            "wilson_95": [
+              0.8044669820963272,
+              0.9671162431819081
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 4,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "error_opportunities": 4,
+          "false_rejection_rate": {
+            "denominator": 39,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08966685370757144
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 43,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 0.09302325581395349,
+            "wilson_95": [
+              0.03677164063171276,
+              0.21602703641253587
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 4,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 1.0,
+            "wilson_95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "unresolved": 0
+        }
+      },
+      "valid_outputs": 44
+    },
+    "gpt-oss:20b": {
+      "invalid_outputs": 1,
+      "paired_accept_all_vs_axiom": {
+        "baseline_only_false_certification": 0,
+        "discordant": 0,
+        "mcnemar_exact_p": null,
+        "tested_only_false_certification": 0
+      },
+      "strategies": {
+        "ACCEPT_ALL_VALID": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 47,
+            "status": "DEFINED",
+            "value": 0.9791666666666666,
+            "wilson_95": [
+              0.8910078200474814,
+              0.9963128890224893
+            ]
+          },
+          "correct_opportunities": 47,
+          "correct_specification_abstention_rate": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "counts": {
+            "abstained": 1,
+            "accepted": 47,
+            "rejected": 0
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 47,
+            "status": "DEFINED",
+            "value": 0.9791666666666666,
+            "wilson_95": [
+              0.8910078200474814,
+              0.9963128890224893
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "error_opportunities": 0,
+          "false_rejection_rate": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "unresolved": 0
+        },
+        "AXIOM_X_B2_1": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 43,
+            "status": "DEFINED",
+            "value": 0.8958333333333334,
+            "wilson_95": [
+              0.7783257830561368,
+              0.9546782809581869
+            ]
+          },
+          "correct_opportunities": 47,
+          "correct_specification_abstention_rate": {
+            "denominator": 47,
+            "numerator": 4,
+            "status": "DEFINED",
+            "value": 0.0851063829787234,
+            "wilson_95": [
+              0.03359412345792552,
+              0.19931537786964587
+            ]
+          },
+          "counts": {
+            "abstained": 5,
+            "accepted": 43,
+            "rejected": 0
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 43,
+            "status": "DEFINED",
+            "value": 0.8958333333333334,
+            "wilson_95": [
+              0.7783257830561368,
+              0.9546782809581869
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "error_opportunities": 0,
+          "false_rejection_rate": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 43,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08200980322579117
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "unresolved": 0
+        },
+        "CHEAP_RULE_ABLATION": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 45,
+            "status": "DEFINED",
+            "value": 0.9375,
+            "wilson_95": [
+              0.8316456194505365,
+              0.9785167670916107
+            ]
+          },
+          "correct_opportunities": 47,
+          "correct_specification_abstention_rate": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "counts": {
+            "abstained": 1,
+            "accepted": 45,
+            "rejected": 2
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 47,
+            "status": "DEFINED",
+            "value": 0.9791666666666666,
+            "wilson_95": [
+              0.8910078200474814,
+              0.9963128890224893
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "error_opportunities": 0,
+          "false_rejection_rate": {
+            "denominator": 47,
+            "numerator": 2,
+            "status": "DEFINED",
+            "value": 0.0425531914893617,
+            "wilson_95": [
+              0.011748275966789345,
+              0.1424852767789945
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 45,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07865159873288836
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "unresolved": 0
+        },
+        "SOLVER_ONLY": {
+          "acceptance_coverage": {
+            "denominator": 48,
+            "numerator": 47,
+            "status": "DEFINED",
+            "value": 0.9791666666666666,
+            "wilson_95": [
+              0.8910078200474814,
+              0.9963128890224893
+            ]
+          },
+          "correct_opportunities": 47,
+          "correct_specification_abstention_rate": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "counts": {
+            "abstained": 1,
+            "accepted": 47,
+            "rejected": 0
+          },
+          "decision_coverage": {
+            "denominator": 48,
+            "numerator": 47,
+            "status": "DEFINED",
+            "value": 0.9791666666666666,
+            "wilson_95": [
+              0.8910078200474814,
+              0.9963128890224893
+            ]
+          },
+          "error_detection_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "error_opportunities": 0,
+          "false_rejection_rate": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "n": 48,
+          "selective_risk": {
+            "denominator": 47,
+            "numerator": 0,
+            "status": "DEFINED",
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.07555760416399632
+            ]
+          },
+          "specification_false_certification_rate": {
+            "denominator": 0,
+            "numerator": 0,
+            "status": "N/A_ZERO_DENOMINATOR",
+            "value": null,
+            "wilson_95": null
+          },
+          "unresolved": 0
+        }
+      },
+      "valid_outputs": 47
+    }
+  },
+  "origin": "PROSPECTIVE_LOCAL_MODEL_GENERATION",
+  "schema": "axiom-x-v4-natural-model-results-v1",
+  "shared_task_warning": "Models share 48 source tasks; pooled model rows are not independent confirmation samples."
+}

@@ -1,0 +1,1026 @@
+[
+  {
+    "candidate_count": 15,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin1": 1,
+      "yin1": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-01",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 21,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin2": 5,
+      "yin2": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-02",
+    "reference_count": 15
+  },
+  {
+    "candidate_count": 28,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin3": 1,
+      "yin3": 7
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-03",
+    "reference_count": 21
+  },
+  {
+    "candidate_count": 15,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin4": 1,
+      "yin4": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-04",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 21,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin5": 5,
+      "yin5": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-05",
+    "reference_count": 15
+  },
+  {
+    "candidate_count": 28,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin6": 1,
+      "yin6": 7
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-06",
+    "reference_count": 21
+  },
+  {
+    "candidate_count": 15,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin7": 1,
+      "yin7": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-07",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 21,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin8": 5,
+      "yin8": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NUMERICAL-BOUNDS-08",
+    "reference_count": 15
+  },
+  {
+    "candidate_count": 120,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi1": 3,
+      "ymi1": 5,
+      "zmi1": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-01",
+    "reference_count": 18
+  },
+  {
+    "candidate_count": 210,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi2": 1,
+      "ymi2": 2,
+      "zmi2": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-02",
+    "reference_count": 24
+  },
+  {
+    "candidate_count": 120,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi3": 5,
+      "ymi3": 3,
+      "zmi3": 1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-03",
+    "reference_count": 18
+  },
+  {
+    "candidate_count": 210,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi4": 4,
+      "ymi4": 6,
+      "zmi4": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-04",
+    "reference_count": 18
+  },
+  {
+    "candidate_count": 120,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi5": 1,
+      "ymi5": 5,
+      "zmi5": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-05",
+    "reference_count": 18
+  },
+  {
+    "candidate_count": 210,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi6": 1,
+      "ymi6": 6,
+      "zmi6": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-06",
+    "reference_count": 24
+  },
+  {
+    "candidate_count": 120,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi7": 4,
+      "ymi7": 1,
+      "zmi7": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-07",
+    "reference_count": 18
+  },
+  {
+    "candidate_count": 210,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xmi8": 6,
+      "ymi8": 4,
+      "zmi8": 1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MISSING-CONSTRAINT-08",
+    "reference_count": 24
+  },
+  {
+    "candidate_count": 20,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad1": 0,
+      "yad1": 2
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-01",
+    "reference_count": 26
+  },
+  {
+    "candidate_count": 27,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad2": 1,
+      "yad2": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-02",
+    "reference_count": 34
+  },
+  {
+    "candidate_count": 36,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad3": 2,
+      "yad3": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-03",
+    "reference_count": 43
+  },
+  {
+    "candidate_count": 22,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad4": 3,
+      "yad4": 2
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-04",
+    "reference_count": 26
+  },
+  {
+    "candidate_count": 30,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad5": 4,
+      "yad5": 2
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-05",
+    "reference_count": 34
+  },
+  {
+    "candidate_count": 39,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad6": 5,
+      "yad6": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-06",
+    "reference_count": 43
+  },
+  {
+    "candidate_count": 20,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad7": 0,
+      "yad7": 2
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-07",
+    "reference_count": 26
+  },
+  {
+    "candidate_count": 27,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xad8": 0,
+      "yad8": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-ADDED-CONSTRAINT-08",
+    "reference_count": 34
+  },
+  {
+    "candidate_count": 21,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin1": 4,
+      "yin1": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-01",
+    "reference_count": 15
+  },
+  {
+    "candidate_count": 28,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin2": 5,
+      "yin2": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-02",
+    "reference_count": 21
+  },
+  {
+    "candidate_count": 36,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin3": 6,
+      "yin3": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-03",
+    "reference_count": 28
+  },
+  {
+    "candidate_count": 45,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin4": -1,
+      "yin4": -1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-04",
+    "reference_count": 36
+  },
+  {
+    "candidate_count": 21,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin5": 4,
+      "yin5": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-05",
+    "reference_count": 15
+  },
+  {
+    "candidate_count": 28,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin6": 5,
+      "yin6": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-06",
+    "reference_count": 21
+  },
+  {
+    "candidate_count": 36,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin7": 6,
+      "yin7": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-07",
+    "reference_count": 28
+  },
+  {
+    "candidate_count": 45,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin8": -1,
+      "yin8": -1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-LOGICAL-OPERATOR-08",
+    "reference_count": 36
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin1": 3,
+      "yin1": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-01",
+    "reference_count": 30
+  },
+  {
+    "candidate_count": 7,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin2": 2,
+      "yin2": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-02",
+    "reference_count": 42
+  },
+  {
+    "candidate_count": 8,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin3": 5,
+      "yin3": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-03",
+    "reference_count": 56
+  },
+  {
+    "candidate_count": 9,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin4": 6,
+      "yin4": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-04",
+    "reference_count": 72
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin5": 3,
+      "yin5": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-05",
+    "reference_count": 30
+  },
+  {
+    "candidate_count": 7,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin6": 2,
+      "yin6": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-06",
+    "reference_count": 42
+  },
+  {
+    "candidate_count": 8,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin7": 5,
+      "yin7": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-07",
+    "reference_count": 56
+  },
+  {
+    "candidate_count": 9,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin8": 0,
+      "yin8": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-NEGATION-08",
+    "reference_count": 72
+  },
+  {
+    "candidate_count": 30,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin1": 5,
+      "yin1": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-01",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 42,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin2": 6,
+      "yin2": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-02",
+    "reference_count": 7
+  },
+  {
+    "candidate_count": 56,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin3": 7,
+      "yin3": 3
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-03",
+    "reference_count": 8
+  },
+  {
+    "candidate_count": 30,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin4": 5,
+      "yin4": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-04",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 42,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin5": 6,
+      "yin5": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-05",
+    "reference_count": 7
+  },
+  {
+    "candidate_count": 56,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin6": 7,
+      "yin6": 3
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-06",
+    "reference_count": 8
+  },
+  {
+    "candidate_count": 30,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin7": 5,
+      "yin7": 3
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-07",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 42,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xin8": 6,
+      "yin8": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-INCORRECT-EQUALITY-08",
+    "reference_count": 7
+  },
+  {
+    "candidate_count": 5,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva1": 1,
+      "yva1": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-01",
+    "reference_count": 5
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva2": 2,
+      "yva2": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-02",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 7,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva3": 1,
+      "yva3": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-03",
+    "reference_count": 7
+  },
+  {
+    "candidate_count": 8,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva4": 2,
+      "yva4": 7
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-04",
+    "reference_count": 8
+  },
+  {
+    "candidate_count": 5,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva5": 1,
+      "yva5": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-05",
+    "reference_count": 5
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva6": 2,
+      "yva6": 5
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-06",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 7,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva7": 1,
+      "yva7": 6
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-07",
+    "reference_count": 7
+  },
+  {
+    "candidate_count": 8,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "xva8": 2,
+      "yva8": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-VARIABLE-MAPPING-ERROR-08",
+    "reference_count": 8
+  },
+  {
+    "candidate_count": 10,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca1": 0,
+      "b1ca1": 0,
+      "b2ca1": 0,
+      "b3ca1": 1,
+      "b4ca1": 1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-01",
+    "reference_count": 5
+  },
+  {
+    "candidate_count": 10,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca2": 1,
+      "b1ca2": 0,
+      "b2ca2": 1,
+      "b3ca2": 0,
+      "b4ca2": 1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-02",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 5,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca3": 1,
+      "b1ca3": 0,
+      "b2ca3": 1,
+      "b3ca3": 1,
+      "b4ca3": 1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-03",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 10,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca4": 0,
+      "b1ca4": 1,
+      "b2ca4": 0,
+      "b3ca4": 1,
+      "b4ca4": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-04",
+    "reference_count": 5
+  },
+  {
+    "candidate_count": 10,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca5": 1,
+      "b1ca5": 1,
+      "b2ca5": 0,
+      "b3ca5": 1,
+      "b4ca5": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-05",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 5,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca6": 1,
+      "b1ca6": 0,
+      "b2ca6": 1,
+      "b3ca6": 1,
+      "b4ca6": 1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-06",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 10,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca7": 0,
+      "b1ca7": 1,
+      "b2ca7": 0,
+      "b3ca7": 1,
+      "b4ca7": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-07",
+    "reference_count": 5
+  },
+  {
+    "candidate_count": 10,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "b0ca8": 1,
+      "b1ca8": 0,
+      "b2ca8": 1,
+      "b3ca8": 1,
+      "b4ca8": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CARDINALITY-MISTAKE-08",
+    "reference_count": 10
+  },
+  {
+    "candidate_count": 164,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo1": 6,
+      "d1mo1": 9,
+      "d2mo1": 7
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-01",
+    "reference_count": 160
+  },
+  {
+    "candidate_count": 168,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo2": 6,
+      "d1mo2": 9,
+      "d2mo2": 4
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-02",
+    "reference_count": 164
+  },
+  {
+    "candidate_count": 156,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo3": 2,
+      "d1mo3": 9,
+      "d2mo3": 1
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-03",
+    "reference_count": 168
+  },
+  {
+    "candidate_count": 160,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo4": 5,
+      "d1mo4": 9,
+      "d2mo4": 2
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-04",
+    "reference_count": 156
+  },
+  {
+    "candidate_count": 164,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo5": 9,
+      "d1mo5": 3,
+      "d2mo5": 7
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-05",
+    "reference_count": 160
+  },
+  {
+    "candidate_count": 168,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo6": 4,
+      "d1mo6": 1,
+      "d2mo6": 3
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-06",
+    "reference_count": 164
+  },
+  {
+    "candidate_count": 156,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo7": 1,
+      "d1mo7": 0,
+      "d2mo7": 7
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-07",
+    "reference_count": 168
+  },
+  {
+    "candidate_count": 160,
+    "candidate_relation": "DIFFERENT",
+    "counterexample": {
+      "d0mo8": 9,
+      "d1mo8": 4,
+      "d2mo8": 0
+    },
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-MODULO-REMAINDER-ERROR-08",
+    "reference_count": 156
+  },
+  {
+    "candidate_count": 29,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-01",
+    "reference_count": 29
+  },
+  {
+    "candidate_count": 34,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-02",
+    "reference_count": 34
+  },
+  {
+    "candidate_count": 35,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-03",
+    "reference_count": 35
+  },
+  {
+    "candidate_count": 28,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-04",
+    "reference_count": 28
+  },
+  {
+    "candidate_count": 33,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-05",
+    "reference_count": 33
+  },
+  {
+    "candidate_count": 38,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-06",
+    "reference_count": 38
+  },
+  {
+    "candidate_count": 29,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-07",
+    "reference_count": 29
+  },
+  {
+    "candidate_count": 34,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "COMPLETE",
+    "problem_id": "V4-CORRECT-SPECIFICATION-08",
+    "reference_count": 34
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-01",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-02",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-03",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-04",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-05",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-06",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-07",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 3,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-UNSUPPORTED-GRAMMAR-08",
+    "reference_count": 3
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-01",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-02",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-03",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-04",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-05",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-06",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-07",
+    "reference_count": 6
+  },
+  {
+    "candidate_count": 6,
+    "candidate_relation": "EQUIVALENT",
+    "counterexample": null,
+    "parser_expected": "UNSUPPORTED",
+    "problem_id": "V4-AMBIGUOUS-TEXT-08",
+    "reference_count": 6
+  }
+]

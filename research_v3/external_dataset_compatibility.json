@@ -1,0 +1,169 @@
+{
+  "audit_date": "2026-11-03",
+  "axiom_x_target": "explicit finite integer domains plus constraints, target=count_solutions",
+  "method": "full-file structural scan plus task-semantics review; no formula was simplified or converted",
+  "records": [
+    {
+      "annotation_origin": "expert-written NL with FOL annotations; later audit found substantial annotation errors",
+      "axiom_x_lossless_eligible_rows": 0,
+      "dataset": "FOLIO-v0.0",
+      "decision": "EXCLUDED",
+      "exclusion_reasons": [
+        "task target is NL-to-open-domain-FOL or NLI, not finite-domain assignment counting",
+        "quantified predicate/function semantics cannot be represented in the current AXIOM-X integer DSL without loss",
+        "no row-level finite-domain declaration and count_solutions target compatible with AXIOM-X was identified"
+      ],
+      "formula_string_count": 6527,
+      "formula_strings_with_fol_quantifier": 3995,
+      "license_clear_enough_for_research_use": true,
+      "license_finding": "repository LICENSE is CC BY-SA 4.0",
+      "natural_language_string_count": 7533,
+      "repository": "../research_sources/FOLIO",
+      "repository_commit": "5d7bb84c7edab3fb358e057d2807f19cf5cf5e2d",
+      "row_count": 1208,
+      "scan_flag_was_not_used_as_semantic_conversion": true,
+      "source_files": [
+        {
+          "path": "data/v0.0/folio-train.jsonl",
+          "sha256": "008d34b750d31fa7f014e953228adf4db81ec34bbda9e7f67c96c60438d1e6b2"
+        },
+        {
+          "path": "data/v0.0/folio-validation.jsonl",
+          "sha256": "6922c988ef10987bd6545568ee8e63e897af80994591fa20539767da58f8e3d1"
+        }
+      ],
+      "texts_with_explicit_assignment_count_target": 0,
+      "texts_with_explicit_finite_domain_surface_form": 0
+    },
+    {
+      "annotation_origin": "2026 human inspection and correction, 275 FOLIO validation instances",
+      "axiom_x_lossless_eligible_rows": 0,
+      "dataset": "FOLIO-2026-human-curated-validation",
+      "decision": "EXCLUDED",
+      "exclusion_reasons": [
+        "task target is NL-to-open-domain-FOL or NLI, not finite-domain assignment counting",
+        "quantified predicate/function semantics cannot be represented in the current AXIOM-X integer DSL without loss",
+        "no row-level finite-domain declaration and count_solutions target compatible with AXIOM-X was identified",
+        "license statement is absent, conflicting, or insufficiently clear for redistribution"
+      ],
+      "formula_string_count": 550,
+      "formula_strings_with_fol_quantifier": 255,
+      "license_clear_enough_for_research_use": false,
+      "license_finding": "README says dataset CC BY 4.0 but repository has no LICENSE file and upstream FOLIO says CC BY-SA 4.0",
+      "natural_language_string_count": 281,
+      "repository": "../research_sources/Fixing-FOLIO-and-MALLS",
+      "repository_commit": "fd3e6069e3f89382d1b28223f3961f0791872f55",
+      "row_count": 275,
+      "scan_flag_was_not_used_as_semantic_conversion": true,
+      "source_files": [
+        {
+          "path": "core/dataset/datasets/folio/dataset_rawpairs.jsonl",
+          "sha256": "246fd20fb3d633d8f6cf59180337d539b8aef3933dda1a255bc8b4eb5eae2277"
+        }
+      ],
+      "texts_with_explicit_assignment_count_target": 0,
+      "texts_with_explicit_finite_domain_surface_form": 0
+    },
+    {
+      "annotation_origin": "2026 human inspection and correction, 100 MALLS test instances",
+      "axiom_x_lossless_eligible_rows": 0,
+      "dataset": "MALLS-2026-human-curated-test-subset",
+      "decision": "EXCLUDED",
+      "exclusion_reasons": [
+        "task target is NL-to-open-domain-FOL or NLI, not finite-domain assignment counting",
+        "quantified predicate/function semantics cannot be represented in the current AXIOM-X integer DSL without loss",
+        "no row-level finite-domain declaration and count_solutions target compatible with AXIOM-X was identified",
+        "license statement is absent, conflicting, or insufficiently clear for redistribution"
+      ],
+      "formula_string_count": 200,
+      "formula_strings_with_fol_quantifier": 200,
+      "license_clear_enough_for_research_use": false,
+      "license_finding": "README says dataset CC BY 4.0; no repository LICENSE file; original MALLS repository says CC BY-NC 4.0",
+      "natural_language_string_count": 100,
+      "repository": "../research_sources/Fixing-FOLIO-and-MALLS",
+      "repository_commit": "fd3e6069e3f89382d1b28223f3961f0791872f55",
+      "row_count": 100,
+      "scan_flag_was_not_used_as_semantic_conversion": true,
+      "source_files": [
+        {
+          "path": "core/dataset/datasets/malls/dataset_rawpairs.jsonl",
+          "sha256": "52888fbedbb005b393f880a17e73f2f664cbe0b6b20ef12c09f9e7a7ba54df95"
+        }
+      ],
+      "texts_with_explicit_assignment_count_target": 0,
+      "texts_with_explicit_finite_domain_surface_form": 0
+    },
+    {
+      "annotation_origin": "LLM-regenerated and automatically corrected corpus derived from MALLS/Willow",
+      "axiom_x_lossless_eligible_rows": 0,
+      "dataset": "GROVES",
+      "decision": "EXCLUDED",
+      "exclusion_reasons": [
+        "task target is NL-to-open-domain-FOL or NLI, not finite-domain assignment counting",
+        "quantified predicate/function semantics cannot be represented in the current AXIOM-X integer DSL without loss",
+        "no row-level finite-domain declaration and count_solutions target compatible with AXIOM-X was identified"
+      ],
+      "formula_string_count": 49870,
+      "formula_strings_with_fol_quantifier": 49383,
+      "license_clear_enough_for_research_use": true,
+      "license_finding": "repository LICENSE is MIT; upstream derivative-data obligations still require care",
+      "natural_language_string_count": 49870,
+      "repository": "../research_sources/ANLFtFOLwFLLMs",
+      "repository_commit": "9290526e971697d110df6ed8ac1e45b34bb0c2f9",
+      "row_count": 49870,
+      "scan_flag_was_not_used_as_semantic_conversion": true,
+      "source_files": [
+        {
+          "path": "datasets_nl_fol/groves_train.json",
+          "sha256": "8e67082eb67f8393346f652e9c1e4000a20cfe394a5c23dad2547fe8b8454c33"
+        },
+        {
+          "path": "datasets_nl_fol/groves_val.json",
+          "sha256": "50f7145e1b2684e13b9f850efd9bb623d2f57bc162a3057e67326bb406ff9a72"
+        },
+        {
+          "path": "datasets_nl_fol/groves_test.json",
+          "sha256": "27104ae2b03b37747d3c270e423125e34694e343b426d882cbdb306da4dd44e3"
+        }
+      ],
+      "texts_with_explicit_assignment_count_target": 0,
+      "texts_with_explicit_finite_domain_surface_form": 6
+    },
+    {
+      "annotation_origin": "100-row human-annotated NL-to-FOL benchmark",
+      "axiom_x_lossless_eligible_rows": 0,
+      "dataset": "GROVES-human-annotated-benchmark",
+      "decision": "EXCLUDED",
+      "exclusion_reasons": [
+        "task target is NL-to-open-domain-FOL or NLI, not finite-domain assignment counting",
+        "quantified predicate/function semantics cannot be represented in the current AXIOM-X integer DSL without loss",
+        "no row-level finite-domain declaration and count_solutions target compatible with AXIOM-X was identified"
+      ],
+      "formula_string_count": 100,
+      "formula_strings_with_fol_quantifier": 89,
+      "license_clear_enough_for_research_use": true,
+      "license_finding": "distributed in MIT-licensed repository; upstream text provenance is not row-level in the file",
+      "natural_language_string_count": 100,
+      "repository": "../research_sources/ANLFtFOLwFLLMs",
+      "repository_commit": "9290526e971697d110df6ed8ac1e45b34bb0c2f9",
+      "row_count": 100,
+      "scan_flag_was_not_used_as_semantic_conversion": true,
+      "source_files": [
+        {
+          "path": "datasets_nl_fol/goldstandard.json",
+          "sha256": "05d067d67b72e635ad86c5ff33014b2df4d8a9ff086b95de4e1612d748d456a7"
+        }
+      ],
+      "texts_with_explicit_assignment_count_target": 0,
+      "texts_with_explicit_finite_domain_surface_form": 0
+    }
+  ],
+  "schema": "axiom-x-external-compatibility-audit-v1",
+  "summary": {
+    "datasets_checked": 5,
+    "lossless_eligible_rows": 0,
+    "route_a_status": "NOT_FEASIBLE",
+    "rows_checked": 51553,
+    "selected_route": "B_CONTROLLED_LANGUAGE"
+  }
+}

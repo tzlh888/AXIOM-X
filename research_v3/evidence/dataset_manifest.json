@@ -1,0 +1,23 @@
+{
+  "files": {
+    "automatic_reference.json": "67ad7a34f449c9bb85eff5509d448eba4ec0c2b1934d7b50f5e4a785373190c9",
+    "public_dataset.json": "72ec790960c714380d10c92a92b8d73d3ac4b04eb317b67c193a361dd1b208c7",
+    "template_registry.json": "1d8199c215af74dd24dc2dbab39325f0026e02404647307296447d0a570271da"
+  },
+  "formal_reference_precedes_text": true,
+  "human_gold": false,
+  "natural_distribution": false,
+  "parser_expected_counts": {
+    "COMPLETE": 45,
+    "UNSUPPORTED": 3
+  },
+  "prompt_sha256": "2be19a815526cf140b5e0cee8bee278bfaee9b4c3a9c8e99a6421071b6376702",
+  "protocol_sha256": "6c63591e2386303fedb1953174bcc27398da02fa3cdbfc8fcba8c33db92760e3",
+  "row_count": 48,
+  "schema": "axiom-x-controlled-dataset-freeze-v1",
+  "split_counts": {
+    "controlled_confirmation": 16,
+    "development": 32
+  },
+  "status": "FROZEN"
+}

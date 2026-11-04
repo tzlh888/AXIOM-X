@@ -1,0 +1,214 @@
+[
+  {
+    "count": 16,
+    "dual_solver_and_direct_math_agree": true,
+    "human_gold": false,
+    "problem_id": "V5-LEVIN-1.2.3-1",
+    "proposal": {
+      "constraints": [],
+      "generation_id": "V5-LEVIN-1.2.3-1",
+      "problem_id": "V5-LEVIN-1.2.3-1",
+      "source": "V5_AI_FEASIBILITY_ONLY",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4"
+        }
+      ],
+      "verification_status": "UNVERIFIED"
+    }
+  },
+  {
+    "count": 4,
+    "dual_solver_and_direct_math_agree": true,
+    "human_gold": false,
+    "problem_id": "V5-LEVIN-1.2.3-2",
+    "proposal": {
+      "constraints": [
+        {
+          "count": 3,
+          "kind": "count_equal",
+          "value": 1,
+          "variables": [
+            "b1",
+            "b2",
+            "b3",
+            "b4"
+          ]
+        }
+      ],
+      "generation_id": "V5-LEVIN-1.2.3-2",
+      "problem_id": "V5-LEVIN-1.2.3-2",
+      "source": "V5_AI_FEASIBILITY_ONLY",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4"
+        }
+      ],
+      "verification_status": "UNVERIFIED"
+    }
+  },
+  {
+    "count": 4,
+    "dual_solver_and_direct_math_agree": true,
+    "human_gold": false,
+    "problem_id": "V5-LEVIN-1.2.3-3",
+    "proposal": {
+      "constraints": [
+        {
+          "kind": "equal",
+          "value": 0,
+          "variable": "b1"
+        },
+        {
+          "kind": "equal",
+          "value": 0,
+          "variable": "b3"
+        }
+      ],
+      "generation_id": "V5-LEVIN-1.2.3-3",
+      "problem_id": "V5-LEVIN-1.2.3-3",
+      "source": "V5_AI_FEASIBILITY_ONLY",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4"
+        }
+      ],
+      "verification_status": "UNVERIFIED"
+    }
+  },
+  {
+    "count": 8,
+    "dual_solver_and_direct_math_agree": true,
+    "human_gold": false,
+    "problem_id": "V5-LEVIN-1.2.3-4",
+    "proposal": {
+      "constraints": [
+        {
+          "base": 3,
+          "kind": "number_mod",
+          "modulus": 2,
+          "remainder": 0,
+          "variables": [
+            "b1",
+            "b2",
+            "b3",
+            "b4"
+          ]
+        }
+      ],
+      "generation_id": "V5-LEVIN-1.2.3-4",
+      "problem_id": "V5-LEVIN-1.2.3-4",
+      "source": "V5_AI_FEASIBILITY_ONLY",
+      "target": "count_solutions",
+      "variables": [
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b1"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b2"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b3"
+        },
+        {
+          "domain": [
+            0,
+            1
+          ],
+          "name": "b4"
+        }
+      ],
+      "verification_status": "UNVERIFIED"
+    }
+  }
+]

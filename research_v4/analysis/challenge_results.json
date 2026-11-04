@@ -1,0 +1,3896 @@
+{
+  "mechanisms": {
+    "added_constraint": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "ambiguous_text": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 8
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 8,
+          "accepted": 0,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 8
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 8
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 8
+      }
+    },
+    "cardinality_mistake": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "correct_specification": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      }
+    },
+    "incorrect_equality": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "incorrect_logical_operator": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "incorrect_negation": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "incorrect_numerical_bounds": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "missing_constraint": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "modulo_remainder_error": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    },
+    "unsupported_grammar": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "counts": {
+          "abstained": 8,
+          "accepted": 0,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 8,
+        "correct_specification_abstention_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "error_opportunities": 0,
+        "false_rejection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "unresolved": 0
+      }
+    },
+    "variable_mapping_error": {
+      "ACCEPT_ALL_VALID": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "AXIOM_X_B2_1": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 0,
+          "rejected": 8
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "unresolved": 0
+      },
+      "CHEAP_RULE_ABLATION": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      },
+      "SOLVER_ONLY": {
+        "acceptance_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "correct_opportunities": 0,
+        "correct_specification_abstention_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "counts": {
+          "abstained": 0,
+          "accepted": 8,
+          "rejected": 0
+        },
+        "decision_coverage": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "error_detection_rate": {
+          "denominator": 8,
+          "numerator": 0,
+          "status": "DEFINED",
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "error_opportunities": 8,
+        "false_rejection_rate": {
+          "denominator": 0,
+          "numerator": 0,
+          "status": "N/A_ZERO_DENOMINATOR",
+          "value": null,
+          "wilson_95": null
+        },
+        "n": 8,
+        "selective_risk": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "specification_false_certification_rate": {
+          "denominator": 8,
+          "numerator": 8,
+          "status": "DEFINED",
+          "value": 1.0,
+          "wilson_95": [
+            0.6755924351161198,
+            1.0
+          ]
+        },
+        "unresolved": 0
+      }
+    }
+  },
+  "origin": "PROSPECTIVE_CONTROLLED_PERTURBATIONS",
+  "paired_accept_all_vs_axiom": {
+    "baseline_only_false_certification": 72,
+    "discordant": 72,
+    "mcnemar_exact_p": 4.235164736271502e-22,
+    "tested_only_false_certification": 0
+  },
+  "schema": "axiom-x-v4-challenge-results-v1",
+  "strategies": {
+    "ACCEPT_ALL_VALID": {
+      "acceptance_coverage": {
+        "denominator": 96,
+        "numerator": 96,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9615244121423243,
+          1.0
+        ]
+      },
+      "correct_opportunities": 16,
+      "correct_specification_abstention_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "counts": {
+        "abstained": 0,
+        "accepted": 96,
+        "rejected": 0
+      },
+      "decision_coverage": {
+        "denominator": 96,
+        "numerator": 96,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9615244121423243,
+          1.0
+        ]
+      },
+      "error_detection_rate": {
+        "denominator": 72,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.05065117259645781
+        ]
+      },
+      "error_opportunities": 72,
+      "false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "n": 96,
+      "selective_risk": {
+        "denominator": 88,
+        "numerator": 72,
+        "status": "DEFINED",
+        "value": 0.8181818181818182,
+        "wilson_95": [
+          0.7248774097917624,
+          0.8848690023305791
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 72,
+        "numerator": 72,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9493488274035422,
+          1.0
+        ]
+      },
+      "unresolved": 8
+    },
+    "AXIOM_X_B2_1": {
+      "acceptance_coverage": {
+        "denominator": 96,
+        "numerator": 8,
+        "status": "DEFINED",
+        "value": 0.08333333333333333,
+        "wilson_95": [
+          0.04283062415096722,
+          0.15589903239709585
+        ]
+      },
+      "correct_opportunities": 16,
+      "correct_specification_abstention_rate": {
+        "denominator": 16,
+        "numerator": 8,
+        "status": "DEFINED",
+        "value": 0.5,
+        "wilson_95": [
+          0.27999563610326017,
+          0.7200043638967398
+        ]
+      },
+      "counts": {
+        "abstained": 16,
+        "accepted": 8,
+        "rejected": 72
+      },
+      "decision_coverage": {
+        "denominator": 96,
+        "numerator": 80,
+        "status": "DEFINED",
+        "value": 0.8333333333333334,
+        "wilson_95": [
+          0.7462900984810511,
+          0.8947261762804989
+        ]
+      },
+      "error_detection_rate": {
+        "denominator": 72,
+        "numerator": 72,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9493488274035422,
+          1.0
+        ]
+      },
+      "error_opportunities": 72,
+      "false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "n": 96,
+      "selective_risk": {
+        "denominator": 8,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.32440756488388023
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 72,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.05065117259645781
+        ]
+      },
+      "unresolved": 8
+    },
+    "CHEAP_RULE_ABLATION": {
+      "acceptance_coverage": {
+        "denominator": 96,
+        "numerator": 96,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9615244121423243,
+          1.0
+        ]
+      },
+      "correct_opportunities": 16,
+      "correct_specification_abstention_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "counts": {
+        "abstained": 0,
+        "accepted": 96,
+        "rejected": 0
+      },
+      "decision_coverage": {
+        "denominator": 96,
+        "numerator": 96,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9615244121423243,
+          1.0
+        ]
+      },
+      "error_detection_rate": {
+        "denominator": 72,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.05065117259645781
+        ]
+      },
+      "error_opportunities": 72,
+      "false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "n": 96,
+      "selective_risk": {
+        "denominator": 88,
+        "numerator": 72,
+        "status": "DEFINED",
+        "value": 0.8181818181818182,
+        "wilson_95": [
+          0.7248774097917624,
+          0.8848690023305791
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 72,
+        "numerator": 72,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9493488274035422,
+          1.0
+        ]
+      },
+      "unresolved": 8
+    },
+    "SOLVER_ONLY": {
+      "acceptance_coverage": {
+        "denominator": 96,
+        "numerator": 96,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9615244121423243,
+          1.0
+        ]
+      },
+      "correct_opportunities": 16,
+      "correct_specification_abstention_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "counts": {
+        "abstained": 0,
+        "accepted": 96,
+        "rejected": 0
+      },
+      "decision_coverage": {
+        "denominator": 96,
+        "numerator": 96,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9615244121423243,
+          1.0
+        ]
+      },
+      "error_detection_rate": {
+        "denominator": 72,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.05065117259645781
+        ]
+      },
+      "error_opportunities": 72,
+      "false_rejection_rate": {
+        "denominator": 16,
+        "numerator": 0,
+        "status": "DEFINED",
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1936076805344365
+        ]
+      },
+      "n": 96,
+      "selective_risk": {
+        "denominator": 88,
+        "numerator": 72,
+        "status": "DEFINED",
+        "value": 0.8181818181818182,
+        "wilson_95": [
+          0.7248774097917624,
+          0.8848690023305791
+        ]
+      },
+      "specification_false_certification_rate": {
+        "denominator": 72,
+        "numerator": 72,
+        "status": "DEFINED",
+        "value": 1.0,
+        "wilson_95": [
+          0.9493488274035422,
+          1.0
+        ]
+      },
+      "unresolved": 8
+    }
+  }
+}

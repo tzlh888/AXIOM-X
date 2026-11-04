@@ -1,0 +1,9 @@
+{
+  "files": {
+    "challenge_results.json": "200e4b171bae4841b2e007ccfafbab97d14259c23099e048afdc555c4531c1be",
+    "challenge_rows.json": "f98f29b03f51836633290f27a9b36dfc2151c88260c19dcc8a692aa1f9223b72",
+    "model_results.json": "89e362300cdf1b64828e4cec02a9a4b72df72a7ac01204f0a22b911ad70bc222",
+    "model_rows.json": "27aea2d43a679410d97fbd202c810d648559b17b03b620f432a33626fa7fcc0a"
+  },
+  "schema": "axiom-x-v4-analysis-manifest-v1"
+}

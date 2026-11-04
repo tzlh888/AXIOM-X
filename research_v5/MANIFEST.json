@@ -1,0 +1,15 @@
+{
+  "SELECTION_PROTOCOL.json": "fdc7aa7674401d29876a66256334633571dad131280bc8f3365716ec0a9918f3",
+  "evidence/AI_FEASIBILITY_NOT_GOLD.json": "41c7a402bbbf25c925583e1d622c0f36559cd5e7ec244581e3020e04a8c564f7",
+  "evidence/DEDUPLICATION.json": "c338129280695f00063e732f09011562e57ca9566df0274016e72fa9073a6c64",
+  "evidence/GOLD_GATE_STATUS.json": "fe611abf104e872999e3a6880be68f63f955717dd6fb22b3bb5447c5bb731dc7",
+  "evidence/V4_AUDIT.json": "d91f42c1205b5b050123a9f3e1f0c0986434a3fc55efcfd9eb01c1d7370ef604",
+  "evidence/candidate_screen.json": "c632d5fdfa18e6e51ecba5f18cd443dae929f3be6cdb340282bf18f55693a146",
+  "evidence/natural_candidates.json": "606d3fc04427cc10921cc759e022e408544de2ca57a0e28774458b93c2f2cc77",
+  "evidence/reviewer_A_BLANK.json": "30ed1d3ce0116aa6cb50ad8d216c71a2e89e6c3eeef1edf13d7c61a12b4b75f9",
+  "evidence/reviewer_B_BLANK.json": "fa38de8b6c6cea73ec1b353b076739be668ef9800c0a65173d129c537a46ef8c",
+  "extract_source.py": "839d61c50446cf7460fdddfa39bdc38962d868a79660712c31a70d70ae9a4cc9",
+  "prepare_evidence.py": "356591ab1234f450230b666cce069f267f69de4b0b1480345d3e2332e4b6717a",
+  "sources/binom_excerpt.html": "bdd48cb43850934918be9233c94694b3794c95a12989f11428a97662665cbc7b",
+  "sources/colophon_excerpt.html": "6e3d309b0b23e32eac62df76fca9cf42c0c89954c8387be1fc53e19cf83ee66c"
+}

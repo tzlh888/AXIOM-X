@@ -1,0 +1,9 @@
+{
+  "claim_boundary": "Controlled-language local-model evidence only; no natural-distribution or human-Gold claim.",
+  "known_answer_errors": 0,
+  "known_specification_errors": 0,
+  "n": 48,
+  "primary_generation_failures": 2,
+  "schema": "axiom-x-controlled-analysis-v1",
+  "secondary_generation_failures": 2
+}
