@@ -54,5 +54,3 @@ This statement does not relicense third-party dependencies or excluded research
 materials. Dependencies retain their upstream licenses, and material whose
 redistribution rights were not confirmed remains outside this repository. See
 `COPYRIGHT_REVIEW.md`, `DEPENDENCY_LICENSES.md`, and `PRIVATE_EXCLUSIONS.md`.
-
-No GitHub repository, push, or release has been created by this preparation.
